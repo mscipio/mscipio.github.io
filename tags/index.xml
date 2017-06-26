@@ -21,20 +21,47 @@
     </item>
     
     <item>
-      <title>Deep Learning</title>
-      <link>https://mscipio.github.io/tags/deep-learning/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Compartmental Models</title>
+      <link>https://mscipio.github.io/tags/compartmental-models/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mscipio.github.io/tags/deep-learning/</guid>
+      <guid>https://mscipio.github.io/tags/compartmental-models/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Demo</title>
-      <link>https://mscipio.github.io/tags/demo/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
+      <title>Contrast Enhanced Mri</title>
+      <link>https://mscipio.github.io/tags/contrast-enhanced-mri/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mscipio.github.io/tags/demo/</guid>
+      <guid>https://mscipio.github.io/tags/contrast-enhanced-mri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cuda</title>
+      <link>https://mscipio.github.io/tags/cuda/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/cuda/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Dce Mri</title>
+      <link>https://mscipio.github.io/tags/dce-mri/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/dce-mri/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emission Tomography</title>
+      <link>https://mscipio.github.io/tags/emission-tomography/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/emission-tomography/</guid>
       <description></description>
     </item>
     
@@ -53,6 +80,69 @@
       <pubDate>Mon, 10 Mar 2014 00:00:00 +0000</pubDate>
       
       <guid>https://mscipio.github.io/tags/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Kinetic Modeling</title>
+      <link>https://mscipio.github.io/tags/kinetic-modeling/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/kinetic-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nuclear Magnetic Resonance</title>
+      <link>https://mscipio.github.io/tags/nuclear-magnetic-resonance/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/nuclear-magnetic-resonance/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Nvidia</title>
+      <link>https://mscipio.github.io/tags/nvidia/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/nvidia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Pet</title>
+      <link>https://mscipio.github.io/tags/pet/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/pet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spect</title>
+      <link>https://mscipio.github.io/tags/spect/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/spect/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Tomographic Reconstruction</title>
+      <link>https://mscipio.github.io/tags/tomographic-reconstruction/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/tomographic-reconstruction/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Transmission Tomography</title>
+      <link>https://mscipio.github.io/tags/transmission-tomography/</link>
+      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/transmission-tomography/</guid>
       <description></description>
     </item>
     

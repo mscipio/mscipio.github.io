@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Michele Scipioni</title>
-    <link>https://mscipio.github.io/project/</link>
-    <description>Recent content in Projects on Michele Scipioni</description>
+    <title>Emission Tomography on Michele Scipioni</title>
+    <link>https://mscipio.github.io/tags/emission-tomography/</link>
+    <description>Recent content in Emission Tomography on Michele Scipioni</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Michele Scipioni</copyright>
     <lastBuildDate>Mon, 26 Jun 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/project/" rel="self" type="application/rss+xml" />
+    <atom:link href="/tags/emission-tomography/" rel="self" type="application/rss+xml" />
     
     <item>
       <title>CUDA-GPU kinetic modeling</title>
