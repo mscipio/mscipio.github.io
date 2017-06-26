@@ -97,7 +97,7 @@
         
 
         <li class="nav-item">
-          <a href="/#publications_selected" data-target="#publications_selected">
+          <a href="/#publications" data-target="#publications">
             
             <span>Publications</span>
           </a>
@@ -238,11 +238,13 @@
 
     
 
-<h1 id="biography">Biography</h1>
+<h1 id="about-me">About me</h1>
 
-<p>I am an italian Ph.D. student in Biomedical Engineering. My main research interests, at the present moment, include tomographic image reconstruction for medical imaging (mainly PET and MRI), and dynamic studies with a specific focus on kinetic modeling and parametric maps generation.</p>
+<p>I am an Italian Biomedical Engineering Ph.D. student. My main research interests, at the moment, include tomographic image reconstruction for medical imaging (mainly PET and MRI), and kinetic modeling of dynamic acquisitions with a specific focus on parametric maps generation.</p>
 
-<p>During the first years of my Ph.D., I have been dealing with problems of non-linear optimization and fitting of complex ODE-based compartmental models, as well as with the development of hierarchical Bayesian models, both from a theoretical and computational point of view. Giving the particular nature of the problem of parametric mapping, I have had the chance to get in touch with CUDA GP-GPU programming, with the aim of efficiently parallelize the problem of fitting a certain model to all the voxel of a 3D PET or DCE-MRI volume.</p>
+<p>During the first two years of my Ph.D., I have been dealing with theoretical and computational issues, related to the previously mentioned topics. Working with pharmacokinetic modeling basically means working with <strong>non-linear optimization</strong> and fitting of complex <strong>ODE-based compartmental models</strong>, while including this metabolic information into the reconstruction of 4D PET/MRI time series required me to develop and implement <strong>hierarchical Bayesian models</strong>. Giving the particular nature of the problem of parametric mapping, I have also had the chance to get in touch with <strong>CUDA GP-GPU programming</strong>, with the aim of efficiently parallelize the problem of fitting a specific model to every voxel of a 3D PET or DCE-MRI volume.</p>
+
+<p>My <em>alma mater</em> is the <strong><em>University of Pisa</em></strong>, in Italy, but I also spent part of my Ph.D. at the <strong><em>Athinoula A. Martinos Center for Biomedical Imaging</em></strong>, in Boston, and I am still working with them, above all with the two groups mainly involved with PET/MR: <a href="https://www.nmr.mgh.harvard.edu/user/7025" target="_blank">Catana Lab</a>, and <a href="https://www.nmr.mgh.harvard.edu/user/3482467" target="_blank">Price Lab</a>.</p>
 
 
     <div class="row">
@@ -361,6 +363,9 @@
     >, 
     
     <a href="/tags/hugo">hugo</a
+    >, 
+    
+    <a href="/tags/tutorial">tutorial</a
     >
     
   </span>
@@ -416,6 +421,9 @@
     >, 
     
     <a href="/tags/hugo">hugo</a
+    >, 
+    
+    <a href="/tags/tutorial">tutorial</a
     >
     
   </span>
@@ -471,6 +479,9 @@
     >, 
     
     <a href="/tags/hugo">hugo</a
+    >, 
+    
+    <a href="/tags/tutorial">tutorial</a
     >
     
   </span>
@@ -562,91 +573,6 @@
 
   
   
-  <section id="publications_selected" class="home-section">
-    <div class="container">
-      
-
-
-
-<div class="row">
-  <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Selected Publications</h1>
-    
-  </div>
-  <div class="col-xs-12 col-md-8">
-    
-
-    
-    
-    <div class="pub-list-item" itemscope itemtype="http://schema.org/CreativeWork">
-  <div class="row">
-
-    
-
-    <div class="col-md-12">
-
-    
-
-      <h3 class="article-title" itemprop="name">
-        <a href="https://mscipio.github.io/publication/newimagingfrontiers/" itemprop="url">New Imaging Frontiers in Cardiology: Fast and Quantitative Maps from Raw Data</a>
-      </h3>
-
-      <div class="pub-abstract" itemprop="text">
-        
-        In this review article we present several methods that can be used for obtaining parametric maps, in a fast way, starting from the acquired raw data. We describe both methods commonly used in clinical research, and more innovative methods that build maps directly from the raw data, without going through the image reconstruction. We briefly described recently developed methods in magnetic resonance (MR) imaging that accelerate further the MR raw data generation, based on appropriate sub-sampling of k-space; then, we described recently developed methods for generating MR parametric maps. With regard to the emission tomography techniques, we gave an overview of both conventional methods, and more recently developed direct estimation algorithms for parametric image reconstruction from dynamic positron emission tomography data.
-        
-      </div>
-
-      <div class="pub-authors" itemprop="author">
-        
-        MF Santarelli, N Vanello, M Scipioni, G Valvano, L Landini
-        
-      </div>
-
-      <div class="pub-publication">
-        
-        In <em>Current Pharmaceutical Design (CFD)</em>
-        
-      </div>
-
-      <div class="pub-links">
-        
-
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="https://mscipio.github.io/publication/newimagingfrontiers/">
-  Details
-</a>
-
-
-<a class="btn btn-primary btn-outline btn-xs" href="http://www.eurekaselect.com/151160/article">
-  PDF
-</a>
-
-
-
-
-
-
-
-
-      </div>
-
-    </div>
-  </div>
-</div>
-
-    
-    
-
-  </div>
-</div>
-
-    </div>
-  </section>
-
-  
-  
   <section id="publications" class="home-section">
     <div class="container">
       
@@ -656,7 +582,7 @@
 
 <div class="row">
   <div class="col-xs-12 col-md-4 section-heading">
-    <h1>Recent Publications</h1>
+    <h1>Publications</h1>
     
     
   </div>
@@ -862,7 +788,7 @@
           
           <a href="https://mscipio.github.io/project/gpu-lmfit/" title="" class="card-image hover-overlay"
              >
-            <img src="/img/nvidia.png" alt="" class="img-responsive">
+            <img src="/img/GPU-LMfit.png" alt="" class="img-responsive">
           </a>
           
           <div class="card-text">
