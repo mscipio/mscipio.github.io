@@ -11,23 +11,30 @@
     <atom:link href="/publication/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>A Person Re-Identification System For Mobile Devices</title>
-      <link>https://mscipio.github.io/publication/person-re-identification/</link>
-      <pubDate>Tue, 01 Sep 2015 00:00:00 +0000</pubDate>
+      <title>New Imaging Frontiers in Cardiology: Fast and Quantitative Maps from Raw Data</title>
+      <link>https://mscipio.github.io/publication/newimagingfrontiers/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mscipio.github.io/publication/person-re-identification/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>https://mscipio.github.io/publication/newimagingfrontiers/</guid>
+      <description></description>
     </item>
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>https://mscipio.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>A Conway-Maxwell-Poisson (CMP) model to address data dispersion on positron emission tomography</title>
+      <link>https://mscipio.github.io/publication/com-poisson/</link>
+      <pubDate>Mon, 01 Aug 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://mscipio.github.io/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>https://mscipio.github.io/publication/com-poisson/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Influence of Noise in Dynamic PET Direct Reconstruction</title>
+      <link>https://mscipio.github.io/publication/medicon2016/</link>
+      <pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/medicon2016/</guid>
+      <description></description>
     </item>
     
   </channel>

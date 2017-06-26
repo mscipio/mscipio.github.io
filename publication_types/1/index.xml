@@ -7,17 +7,25 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Michele Scipioni</copyright>
-    <lastBuildDate>Mon, 01 Jul 2013 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Mar 2017 00:00:00 +0000</lastBuildDate>
     <atom:link href="/publication_types/1/" rel="self" type="application/rss+xml" />
     
     <item>
-      <title>Mobile visual clothing search</title>
-      <link>https://mscipio.github.io/publication/clothing-search/</link>
-      <pubDate>Mon, 01 Jul 2013 00:00:00 +0000</pubDate>
+      <title>New Imaging Frontiers in Cardiology: Fast and Quantitative Maps from Raw Data</title>
+      <link>https://mscipio.github.io/publication/newimagingfrontiers/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://mscipio.github.io/publication/clothing-search/</guid>
-      <description>&lt;p&gt;More detail can easily be written here using &lt;em&gt;Markdown&lt;/em&gt; and $\rm \LaTeX$ math code.&lt;/p&gt;
-</description>
+      <guid>https://mscipio.github.io/publication/newimagingfrontiers/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The Influence of Noise in Dynamic PET Direct Reconstruction</title>
+      <link>https://mscipio.github.io/publication/medicon2016/</link>
+      <pubDate>Sat, 09 Apr 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/medicon2016/</guid>
+      <description></description>
     </item>
     
   </channel>
