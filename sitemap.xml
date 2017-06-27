@@ -77,6 +77,15 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/project/kmtoolbox/</loc>
+      <lastmod>2016-09-12T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/publication/com-poisson/</loc>
       <lastmod>2016-08-01T00:00:00+00:00</lastmod>
     </url>
@@ -240,6 +249,16 @@
     
       <loc>https://mscipio.github.io/tags/kinetic-modeling/</loc>
       <lastmod>2017-06-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/matlab/</loc>
+      <lastmod>2016-09-12T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
