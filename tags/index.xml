@@ -57,6 +57,15 @@
     </item>
     
     <item>
+      <title>Dicom</title>
+      <link>https://mscipio.github.io/tags/dicom/</link>
+      <pubDate>Sun, 01 May 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/dicom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Emission Tomography</title>
       <link>https://mscipio.github.io/tags/emission-tomography/</link>
       <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
@@ -93,6 +102,15 @@
     </item>
     
     <item>
+      <title>Medical Imaging</title>
+      <link>https://mscipio.github.io/tags/medical-imaging/</link>
+      <pubDate>Sun, 01 May 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/medical-imaging/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Nuclear Magnetic Resonance</title>
       <link>https://mscipio.github.io/tags/nuclear-magnetic-resonance/</link>
       <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
@@ -120,29 +138,11 @@
     </item>
     
     <item>
-      <title>Spect</title>
-      <link>https://mscipio.github.io/tags/spect/</link>
-      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
+      <title>Python</title>
+      <link>https://mscipio.github.io/tags/python/</link>
+      <pubDate>Sun, 01 May 2016 11:00:00 +0000</pubDate>
       
-      <guid>https://mscipio.github.io/tags/spect/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Tomographic Reconstruction</title>
-      <link>https://mscipio.github.io/tags/tomographic-reconstruction/</link>
-      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mscipio.github.io/tags/tomographic-reconstruction/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Transmission Tomography</title>
-      <link>https://mscipio.github.io/tags/transmission-tomography/</link>
-      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mscipio.github.io/tags/transmission-tomography/</guid>
+      <guid>https://mscipio.github.io/tags/python/</guid>
       <description></description>
     </item>
     

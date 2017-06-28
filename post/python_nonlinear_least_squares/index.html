@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.24" />
+  <meta name="author" content="Michele Scipioni">
+  <meta name="description" content="Ph.D. student in Biomedical Engineering">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css" integrity="sha512-GGGNUPDhnG8LEAEDsjqYIQns+Gu8RBs4j5XGlxl7UfRaZBhCCm5jenJkeJL8uPuOXGqgl8/H1gjlWQDRjd3cUQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+
+  <link rel="alternate" href="https://mscipio.github.io/index.xml" type="application/rss+xml" title="Michele Scipioni">
+  <link rel="feed" href="https://mscipio.github.io/index.xml" type="application/rss+xml" title="Michele Scipioni">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://mscipio.github.io/post/python_nonlinear_least_squares/">
+
+  
+
+  <title> | Michele Scipioni</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Michele Scipioni</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name"></h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Jan 1, 0001
+    </time>
+  </span>
+
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmscipio.github.io%2fpost%2fpython_nonlinear_least_squares%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2fpython_nonlinear_least_squares%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2fpython_nonlinear_least_squares%2f&amp;title="
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmscipio.github.io%2fpost%2fpython_nonlinear_least_squares%2f&amp;title="
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=&amp;body=https%3a%2f%2fmscipio.github.io%2fpost%2fpython_nonlinear_least_squares%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="the-problem">The problem</h2>
+
+<p>Today we are going to test a very simple example of nonlinear least squares curve fitting using the <em>scipy.optimize</em> module.</p>
+
+<pre><code class="language-python">%matplotlib inline
+import numpy as np
+import matplotlib.pyplot as plt
+from scipy.optimize import curve_fit
+</code></pre>
+
+<h2 id="create-data">Create data</h2>
+
+<p>Let&rsquo;s assume we have the following points <em>[xdata, ydata]</em> and that we want to fit these data with the following model function using nonlinear least squares:</p>
+
+<p>$F(p_1,p_2,x) = p_1\cos(p_2x) + p_2\sin(p_1x)$</p>
+
+<p>For now, we are primarily interested in the following results:</p>
+
+<ul>
+<li>The <strong>fit parameters</strong></li>
+<li>Sum of squared <strong>residuals</strong><!-- TEASER_END --></li>
+</ul>
+
+<pre><code class="language-python">xdata = np.array([-2,-1.64,-1.33,-0.7,0,0.45,1.2,1.64,2.32,2.9])
+ydata = np.array([0.699369,0.700462,0.695354,1.03905,1.97389,2.41143,1.91091,0.919576,-0.730975,-1.42001])
+
+# Show data points
+plt.plot(xdata,ydata,'*')
+plt.xlabel('xdata')
+plt.ylabel('ydata');
+</code></pre>
+
+<p><img src="output_3_0.png" alt="png" /></p>
+
+<h2 id="define-fit-function">Define fit function</h2>
+
+<pre><code class="language-python">def func(x, p1,p2):
+  return p1*np.cos(p2*x) + p2*np.sin(p1*x)
+</code></pre>
+
+<h2 id="calculate-and-show-fit-parameters">Calculate and show fit parameters.</h2>
+
+<p>Use a starting guess of $p_1=1$ and $p_2=0.2$</p>
+
+<p>The outputs of the <em>curve_fit</em> function are the following:
+* <strong>popt</strong> : array of <em>optimal values</em> for the parameters so that the sum of the squared error of $f(xdata, *popt) - ydata$ is minimized</p>
+
+<ul>
+<li><strong>pcov</strong> : 2d array of the estimated covariance of <em>popt</em>. The diagonals provide the <em>variance of the parameter estimate</em>. To compute one standard deviation errors on the parameters use $perr = np.sqrt(np.diag(pcov))$. If the Jacobian matrix at the solution doesn&rsquo;t have a full rank, then &lsquo;lm&rsquo; method returns a matrix filled with <code>np.inf</code>, on the other hand &lsquo;trf&rsquo;  and &lsquo;dogbox&rsquo; methods use Moore-Penrose pseudoinverse to compute the covariance matrix.</li>
+</ul>
+
+<pre><code class="language-python">popt, pcov = curve_fit(func, xdata, ydata,p0=(1.0,0.2))
+
+print(&quot;Parameter estimation results:&quot;)
+print(&quot;p1 = &quot;,popt[0],&quot; | p2 = &quot;,popt[1])
+print(&quot;--------------------------&quot;)
+print(&quot;Covariance matrix of the estimate:&quot;)
+print(pcov)
+</code></pre>
+
+<pre><code>Parameter estimation results:
+p1 =  1.881850994  | p2 =  0.700229857403
+--------------------------
+Covariance matrix of the estimate:
+[[  7.52408290e-04   1.00812823e-04]
+ [  1.00812823e-04   8.37695698e-05]]
+</code></pre>
+
+<h2 id="sum-of-squares-of-residuals">Sum of squares of residuals</h2>
+
+<p>Since it&rsquo;s not given by the <em>curve_fit</em> function, we have to compute it <em>by hand</em></p>
+
+<pre><code class="language-python">p1 = popt[0]
+p2 = popt[1]
+residuals = ydata - func(xdata,p1,p2)
+fres = sum(residuals**2)
+
+print(&quot;Residuals sum of squares:&quot;)
+print(fres)
+</code></pre>
+
+<pre><code>Residuals sum of squared:
+0.0538126964188
+</code></pre>
+
+<p>Plot fitted curve along with data</p>
+
+<pre><code class="language-python">curvex=np.linspace(-2,3,100)
+curvey=func(curvex,p1,p2)
+plt.plot(xdata,ydata,'*')
+plt.plot(curvex,curvey,'r')
+plt.xlabel('xdata')
+plt.ylabel('ydata');
+</code></pre>
+
+<p><img src="output_11_0.png" alt="png" /></p>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://mscipio.github.io/post/bss-shogun-python/"><span
+      aria-hidden="true">&larr;</span> </a></li>
+    
+
+    
+    <li class="next"><a href="https://mscipio.github.io/post/writing-markdown-latex/">Writing content with Markdown, LaTeX, and Shortcodes <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Michele Scipioni &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+

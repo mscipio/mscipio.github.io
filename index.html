@@ -18,7 +18,7 @@
   
     
     
-    <link rel="stylesheet" href="/css/highlight.min.css">
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
     
   
   
@@ -339,6 +339,64 @@
   
   
   <h3 class="article-title" itemprop="name">
+    <a href="https://mscipio.github.io/post/read_dicom_files_in_python/" itemprop="url">How to read DICOM files into Python</a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2016-05-01 11:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sun, May 1, 2016
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/dicom">dicom</a
+    >, 
+    
+    <a href="/tags/medical-imaging">medical imaging</a
+    >, 
+    
+    <a href="/tags/python">python</a
+    >
+    
+  </span>
+  
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    <p>Read header information and load data from DICOM files, in Python.</p>
+    
+  </div>
+  <p class="read-more">
+    <a href="https://mscipio.github.io/post/read_dicom_files_in_python/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
     <a href="https://mscipio.github.io/post/getting-started/" itemprop="url">Getting started with the Academic framework for Hugo</a>
   </h3>
   
@@ -557,6 +615,217 @@
   </div>
   <p class="read-more">
     <a href="https://mscipio.github.io/post/writing-markdown-latex/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://mscipio.github.io/post/python_nonlinear_least_squares/" itemprop="url"></a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Jan 1, 0001
+    </time>
+  </span>
+
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    The problem Today we are going to test a very simple example of nonlinear least squares curve fitting using the scipy.optimize module.
+%matplotlib inline import numpy as np import matplotlib.pyplot as plt from scipy.optimize import curve_fit  Create data Let&rsquo;s assume we have the following points [xdata, ydata] and that we want to fit these data with the following model function using nonlinear least squares:
+$F(p_1,p_2,x) = p_1\cos(p_2x) + p_2\sin(p_1x)$
+    
+  </div>
+  <p class="read-more">
+    <a href="https://mscipio.github.io/post/python_nonlinear_least_squares/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://mscipio.github.io/post/bss-shogun-python/" itemprop="url"></a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Jan 1, 0001
+    </time>
+  </span>
+
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    Strongly inspired by an article by Kevin Hughes (https://github.com/kevinhughes27?tab=repositories) Today I am going to show you how we can do Blind Source Separation (BSS) using algorithms available in the Shogun Machine Learning Toolbox. What is Blind Source Separation? BSS is the separation of a set of source signals from a set of mixed signals.
+My favorite example of this problem is known as the cocktail party problem where a number of people are talking simultaneously and we want to separate each persons speech so we can listen to it separately.
+    
+  </div>
+  <p class="read-more">
+    <a href="https://mscipio.github.io/post/bss-shogun-python/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://mscipio.github.io/post/fitting-functions-to-data/" itemprop="url"></a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Jan 1, 0001
+    </time>
+  </span>
+
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    Fitting Functions to Data There are several data fitting utilities available. We will focus on two: * scipy.optimize * lmfit.minimize
+Using both those modules, you can fit any arbitrary function that you define and it is, also, possible to constrain given parameters during the fit. Another important aspect is that both packages come with useful diagnostic tools.
+Fitting Basics The fitting we discuss here is an iterative process. * First, we define our desired function, and calculate values given certain parameters * Then we calculate the difference between the initial and the new values
+    
+  </div>
+  <p class="read-more">
+    <a href="https://mscipio.github.io/post/fitting-functions-to-data/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://mscipio.github.io/post/pca-tutorial-using-scikit-learn-python-module/" itemprop="url"></a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Jan 1, 0001
+    </time>
+  </span>
+
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    Dimensionality Reduction: Principal Component Analysis in-depth Here we&rsquo;ll explore Principal Component Analysis, which is an extremely useful linear dimensionality reduction technique.
+We&rsquo;ll start with our standard set of initial imports:from __future__ import print_function, division %matplotlib inline import numpy as np import matplotlib.pyplot as plt from scipy import stats # use seaborn plotting style defaults import seaborn as sns; sns.set()  Introducing Principal Component Analysis Principal Component Analysis is a very powerful unsupervised method for dimensionality reduction in data.
+    
+  </div>
+  <p class="read-more">
+    <a href="https://mscipio.github.io/post/pca-tutorial-using-scikit-learn-python-module/" class="btn btn-primary btn-outline">
+      CONTINUE READING
+    </a>
+  </p>
+</div>
+
+      
+        
+        
+
+
+<div class="article-list-item" itemscope itemprop="blogPost">
+  
+  
+  <h3 class="article-title" itemprop="name">
+    <a href="https://mscipio.github.io/post/posterior-distribution-of-parameter-estimate/" itemprop="url"></a>
+  </h3>
+  
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Jan 1, 0001
+    </time>
+  </span>
+
+  
+
+  
+
+  
+
+</div>
+
+  <div class="article-style" itemprop="articleBody">
+    
+    The emcee() python module emcee can be used to obtain the posterior probability distribution of parameters, given a set of experimental data. An example problem is a double exponential decay. A small amount of Gaussian noise is also added.%matplotlib inline import numpy as np import lmfit from matplotlib import pyplot as plt import corner import emcee from pylab import * ion()  x = np.linspace(1, 10, 250) np.random.seed(0) y = 3.
+    
+  </div>
+  <p class="read-more">
+    <a href="https://mscipio.github.io/post/posterior-distribution-of-parameter-estimate/" class="btn btn-primary btn-outline">
       CONTINUE READING
     </a>
   </p>

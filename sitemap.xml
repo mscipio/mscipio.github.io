@@ -95,6 +95,15 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/post/read_dicom_files_in_python/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/post/getting-started/</loc>
       <lastmod>2016-04-20T12:00:00+00:00</lastmod>
     </url>
@@ -151,6 +160,46 @@
     
       <loc>https://mscipio.github.io/talk/emim16/</loc>
       <lastmod>2016-03-09T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/post/python_nonlinear_least_squares/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/post/bss-shogun-python/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/post/fitting-functions-to-data/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/post/pca-tutorial-using-scikit-learn-python-module/</loc>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/post/posterior-distribution-of-parameter-estimate/</loc>
     </url>
     
   
@@ -227,6 +276,16 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/tags/dicom/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/tags/emission-tomography/</loc>
       <lastmod>2017-06-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -259,6 +318,16 @@
     
       <loc>https://mscipio.github.io/tags/matlab/</loc>
       <lastmod>2016-09-12T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/medical-imaging/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -319,6 +388,16 @@
     
       <loc>https://mscipio.github.io/publication_types/</loc>
       <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/python/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     

@@ -1,0 +1,446 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.24" />
+  <meta name="author" content="Michele Scipioni">
+  <meta name="description" content="Ph.D. student in Biomedical Engineering">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css" integrity="sha512-GGGNUPDhnG8LEAEDsjqYIQns+Gu8RBs4j5XGlxl7UfRaZBhCCm5jenJkeJL8uPuOXGqgl8/H1gjlWQDRjd3cUQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+
+  <link rel="alternate" href="https://mscipio.github.io/index.xml" type="application/rss+xml" title="Michele Scipioni">
+  <link rel="feed" href="https://mscipio.github.io/index.xml" type="application/rss+xml" title="Michele Scipioni">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://mscipio.github.io/post/posterior-distribution-of-parameter-estimate/">
+
+  
+
+  <title> | Michele Scipioni</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Michele Scipioni</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name"></h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Mon, Jan 1, 0001
+    </time>
+  </span>
+
+  
+
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmscipio.github.io%2fpost%2fposterior-distribution-of-parameter-estimate%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2fposterior-distribution-of-parameter-estimate%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2fposterior-distribution-of-parameter-estimate%2f&amp;title="
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmscipio.github.io%2fpost%2fposterior-distribution-of-parameter-estimate%2f&amp;title="
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=&amp;body=https%3a%2f%2fmscipio.github.io%2fpost%2fposterior-distribution-of-parameter-estimate%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<h2 id="the-emcee-python-module">The <strong>emcee()</strong> python module</h2>
+
+<p><strong>emcee</strong> can be used to obtain the posterior probability distribution of parameters, given a set of experimental data. An example problem is a double exponential decay. A small amount of Gaussian noise is also added.<!-- TEASER_END --></p>
+
+<pre><code class="language-python">%matplotlib inline
+import numpy as np
+import lmfit
+from matplotlib import pyplot as plt
+import corner
+import emcee
+from pylab import *
+ion()
+</code></pre>
+
+<pre><code class="language-python">x = np.linspace(1, 10, 250)
+np.random.seed(0)
+y = 3.0 * np.exp(-x / 2) - 5.0 * np.exp(-(x - 0.1) / 10.) + 0.1 * np.random.randn(len(x))
+
+plt.plot(x, y)
+</code></pre>
+
+<pre><code>[&lt;matplotlib.lines.Line2D at 0x7fbabac52310&gt;]
+</code></pre>
+
+<p><img src="output_3_1.png" alt="png" /></p>
+
+<h3 id="initializing-our-example-creating-a-parameter-set-for-the-initial-guesses">Initializing our example creating a parameter set for the initial guesses:</h3>
+
+<pre><code class="language-python">p = lmfit.Parameters()
+p.add_many(('a1', 4.), ('a2', 4.), ('t1', 3.), ('t2', 3., True))
+
+def residual(p):
+    v = p.valuesdict()
+    return v['a1'] * np.exp(-x / v['t1']) + v['a2'] * np.exp(-(x - 0.1) / v['t2']) - y
+
+</code></pre>
+
+<h3 id="solving-with-minimize-gives-the-maximum-likelihood-solution">Solving with minimize() gives the Maximum Likelihood solution.:</h3>
+
+<pre><code class="language-python">mi = lmfit.minimize(residual, p, method='Nelder')
+#mi = lmfit.minimize(residual, p)
+lmfit.printfuncs.report_fit(mi.params, min_correl=0.5)
+
+plt.plot(x, y)
+plt.plot(x, residual(mi.params) + y, 'r')
+plt.show()
+</code></pre>
+
+<pre><code>[[Variables]]
+    a1:   2.98623688 (init= 4)
+    a2:  -4.33525596 (init= 4)
+    t1:   1.30993185 (init= 3)
+    t2:   11.8240752 (init= 3)
+[[Correlations]] (unreported correlations are &lt;  0.500)
+</code></pre>
+
+<p><img src="output_7_1.png" alt="png" /></p>
+
+<p>However, <strong>this doesn’t give a probability distribution</strong> for the parameters. Furthermore, we wish to deal with the data uncertainty. This is called marginalisation of a nuisance parameter. <strong>emcee</strong> requires a function that returns the log-posterior probability.</p>
+
+<h3 id="posterior-distribution-estimation">Posterior distribution estimation</h3>
+
+<p>The log-posterior probability is a <strong>sum of the log-prior probability and log-likelihood functions</strong>. The log-prior probability is assumed to be zero if all the parameters are within their bounds and -np.inf if any of the parameters are outside their bounds.:</p>
+
+<pre><code class="language-python"># add a noise parameter
+mi.params.add('f', value=1, min=0.001, max=2)
+
+# This is the log-likelihood probability for the sampling. We're going to estimate the
+# size of the uncertainties on the data as well.
+def lnprob(p):
+    resid = residual(p)
+    s = p['f']
+    resid *= 1 / s
+    resid *= resid
+    resid += np.log(2 * np.pi * s**2)
+    return -0.5 * np.sum(resid)
+</code></pre>
+
+<p>Lets have a look at those posterior distributions for the parameters.</p>
+
+<pre><code class="language-python">mini = lmfit.Minimizer(lnprob, mi.params)
+res = mini.emcee(burn=300, steps=600, thin=3, params=mi.params)
+corner.corner(res.flatchain, labels=res.var_names, truths=list(res.params.valuesdict().values()))
+</code></pre>
+
+<p><img src="output_11_0.png" alt="png" /></p>
+
+<p><strong>The values reported in the MinimizerResult are the medians of the probability distributions and a 1 sigma quantile</strong>, estimated as half the difference between the 15.8 and 84.2 percentiles.</p>
+
+<p>The median value is not necessarily the same as the Maximum Likelihood Estimate. We’ll get that as well. You can see that we recovered the right uncertainty level on the data:</p>
+
+<pre><code class="language-python">lmfit.report_fit(mi.params)
+print('---------------------------------------------')
+print(&quot;median of posterior probability distribution&quot;)
+print('---------------------------------------------')
+lmfit.report_fit(res.params)
+</code></pre>
+
+<pre><code>[[Variables]]
+    a1:   2.98623688 (init= 4)
+    a2:  -4.33525596 (init= 4)
+    t1:   1.30993185 (init= 3)
+    t2:   11.8240752 (init= 3)
+    f:    1          (init= 1)
+[[Correlations]] (unreported correlations are &lt;  0.100)
+---------------------------------------------
+median of posterior probability distribution
+---------------------------------------------
+[[Variables]]
+    a1:   2.99754553 +/- 0.151322 (5.05%) (init= 2.986237)
+    a2:  -4.33867001 +/- 0.117687 (2.71%) (init=-4.335256)
+    t1:   1.31237613 +/- 0.132677 (10.11%) (init= 1.309932)
+    t2:   11.8062444 +/- 0.457356 (3.87%) (init= 11.82408)
+    f:    0.09810770 +/- 0.004350 (4.43%) (init= 1)
+[[Correlations]] (unreported correlations are &lt;  0.100)
+    C(a2, t2)                    =  0.980 
+    C(a2, t1)                    = -0.926 
+    C(t1, t2)                    = -0.873 
+    C(a1, t1)                    = -0.541 
+    C(a1, a2)                    =  0.224 
+    C(a1, t2)                    =  0.171 
+</code></pre>
+
+<h3 id="let-s-find-the-maximum-likelihood-solution">Let&rsquo;s find the maximum likelihood solution</h3>
+
+<pre><code class="language-python">highest_prob = np.argmax(res.lnprob)
+hp_loc = np.unravel_index(highest_prob, res.lnprob.shape)
+mle_soln = res.chain[hp_loc]
+for i, par in enumerate(p):
+    p[par].value = mle_soln[i]
+
+print(&quot;\nMaximum likelihood Estimation&quot;)
+print('-----------------------------')
+print(p)
+</code></pre>
+
+<pre><code>Maximum likelihood Estimation
+-----------------------------
+Parameters([('a1', &lt;Parameter 'a1', 2.9874185587879265, bounds=[-inf:inf]&gt;), ('a2', &lt;Parameter 'a2', -4.3357546840836836, bounds=[-inf:inf]&gt;), ('t1', &lt;Parameter 't1', 1.3090319527167826, bounds=[-inf:inf]&gt;), ('t2', &lt;Parameter 't2', 11.823518108067935, bounds=[-inf:inf]&gt;)])
+</code></pre>
+
+<h3 id="finally-lets-work-out-a-1-and-2-sigma-error-estimate-for-t1">Finally lets work out a 1 and 2-sigma error estimate for &lsquo;t1&rsquo;</h3>
+
+<pre><code class="language-python">quantiles = np.percentile(res.flatchain['t1'], [2.28, 15.9, 50, 84.2, 97.7])
+print(&quot;2 sigma spread&quot;, 0.5 * (quantiles[-1] - quantiles[0]))
+</code></pre>
+
+<pre><code>('2 sigma spread', 0.2826990333440581)
+</code></pre>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="container">
+  <nav>
+  <ul class="pager">
+    
+
+    
+    <li class="next"><a href="https://mscipio.github.io/post/pca-tutorial-using-scikit-learn-python-module/"> <span
+      aria-hidden="true">&rarr;</span></a></li>
+    
+  </ul>
+</nav>
+
+</div>
+
+<div class="article-container">
+  
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Michele Scipioni &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+
+  </body>
+</html>
+
