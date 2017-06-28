@@ -21,6 +21,24 @@
     </item>
     
     <item>
+      <title>Bayes</title>
+      <link>https://mscipio.github.io/tags/bayes/</link>
+      <pubDate>Sun, 01 May 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/bayes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Bayesian</title>
+      <link>https://mscipio.github.io/tags/bayesian/</link>
+      <pubDate>Sun, 01 May 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/bayesian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Compartmental Models</title>
       <link>https://mscipio.github.io/tags/compartmental-models/</link>
       <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
@@ -48,6 +66,15 @@
     </item>
     
     <item>
+      <title>Curve Fitting</title>
+      <link>https://mscipio.github.io/tags/curve-fitting/</link>
+      <pubDate>Sun, 01 May 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/curve-fitting/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Dce Mri</title>
       <link>https://mscipio.github.io/tags/dce-mri/</link>
       <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
@@ -62,6 +89,15 @@
       <pubDate>Sun, 01 May 2016 11:00:00 +0000</pubDate>
       
       <guid>https://mscipio.github.io/tags/dicom/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Emcee</title>
+      <link>https://mscipio.github.io/tags/emcee/</link>
+      <pubDate>Sun, 01 May 2016 11:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/tags/emcee/</guid>
       <description></description>
     </item>
     
@@ -93,56 +129,20 @@
     </item>
     
     <item>
-      <title>Matlab</title>
-      <link>https://mscipio.github.io/tags/matlab/</link>
-      <pubDate>Mon, 12 Sep 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://mscipio.github.io/tags/matlab/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Medical Imaging</title>
-      <link>https://mscipio.github.io/tags/medical-imaging/</link>
+      <title>Least Squares</title>
+      <link>https://mscipio.github.io/tags/least-squares/</link>
       <pubDate>Sun, 01 May 2016 11:00:00 +0000</pubDate>
       
-      <guid>https://mscipio.github.io/tags/medical-imaging/</guid>
+      <guid>https://mscipio.github.io/tags/least-squares/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Nuclear Magnetic Resonance</title>
-      <link>https://mscipio.github.io/tags/nuclear-magnetic-resonance/</link>
-      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mscipio.github.io/tags/nuclear-magnetic-resonance/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Nvidia</title>
-      <link>https://mscipio.github.io/tags/nvidia/</link>
-      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mscipio.github.io/tags/nvidia/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Pet</title>
-      <link>https://mscipio.github.io/tags/pet/</link>
-      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mscipio.github.io/tags/pet/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>Python</title>
-      <link>https://mscipio.github.io/tags/python/</link>
+      <title>Lmfit</title>
+      <link>https://mscipio.github.io/tags/lmfit/</link>
       <pubDate>Sun, 01 May 2016 11:00:00 +0000</pubDate>
       
-      <guid>https://mscipio.github.io/tags/python/</guid>
+      <guid>https://mscipio.github.io/tags/lmfit/</guid>
       <description></description>
     </item>
     

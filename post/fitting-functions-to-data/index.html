@@ -43,7 +43,7 @@
 
   
 
-  <title> | Michele Scipioni</title>
+  <title>Fitting theoretical model to data in python | Michele Scipioni</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -156,19 +156,42 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name"></h1>
+    <h1 itemprop="name">Fitting theoretical model to data in python</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2016-05-01 11:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sun, May 1, 2016
     </time>
   </span>
 
   
 
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/least-squares">least squares</a
+    >, 
+    
+    <a href="/tags/lmfit">lmfit</a
+    >, 
+    
+    <a href="/tags/optimization">optimization</a
+    >, 
+    
+    <a href="/tags/python">python</a
+    >, 
+    
+    <a href="/tags/scipy">scipy</a
+    >
+    
+  </span>
+  
   
 
   
@@ -184,28 +207,28 @@
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2ffitting-functions-to-data%2f"
+         href="https://twitter.com/intent/tweet?text=Fitting%20theoretical%20model%20to%20data%20in%20python&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2ffitting-functions-to-data%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2ffitting-functions-to-data%2f&amp;title="
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2ffitting-functions-to-data%2f&amp;title=Fitting%20theoretical%20model%20to%20data%20in%20python"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmscipio.github.io%2fpost%2ffitting-functions-to-data%2f&amp;title="
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmscipio.github.io%2fpost%2ffitting-functions-to-data%2f&amp;title=Fitting%20theoretical%20model%20to%20data%20in%20python"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=&amp;body=https%3a%2f%2fmscipio.github.io%2fpost%2ffitting-functions-to-data%2f">
+         href="mailto:?subject=Fitting%20theoretical%20model%20to%20data%20in%20python&amp;body=https%3a%2f%2fmscipio.github.io%2fpost%2ffitting-functions-to-data%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -219,8 +242,6 @@
 
     <div class="article-style" itemprop="articleBody">
       
-
-<h1 id="fitting-functions-to-data">Fitting Functions to Data</h1>
 
 <p>There are several data fitting utilities available. We will focus on two:
 * scipy.optimize
@@ -343,7 +364,7 @@ plt.rc('font',family='serif')
 fig1=plt.figure(1)
 frame1=fig1.add_axes((.1,.3,.8,.6))
     #xstart, ystart, xwidth, yheight --&gt; units are fraction of the image from bottom left
-    
+
 xsmooth=np.linspace(xarray1[0],xarray1[-1])
 plt.plot(xarray1,yarray1,'.')
 plt.plot(xsmooth,quadratic(paramsout,xsmooth))
@@ -358,7 +379,7 @@ from matplotlib.ticker import MaxNLocator
 plt.gca().yaxis.set_major_locator(MaxNLocator(prune='lower')) #Removes lowest ytick label
 
 frame2=fig1.add_axes((.1,.1,.8,.2))
- 
+
 plt.plot(xarray1,quadratic(paramsout,xarray1)-yarray1)
 plt.ylabel('Residuals')
 plt.grid(True)
@@ -367,7 +388,7 @@ plt.show()
 
 </code></pre>
 
-<p><img src="output_11_0.png" alt="png" /></p>
+<p><img src="../../img/posts/fitting-functions-to-data/output_11_0.png" alt="png" /></p>
 
 <h2 id="example-2-more-complex-functions-with-constraints">Example 2: More complex functions, with constraints</h2>
 
@@ -395,7 +416,7 @@ plt.show()
 
 cube=pyfits.getdata('WLM_NA_ICL001.FITS')[0,:,:,:]
 cubehdr=pyfits.getheader('WLM_NA_ICL001.FITS')
- 
+
 cdelt3=cubehdr['CDELT3']/1000.; crval3=cubehdr['CRVAL3']/1000.; crpix3=cubehdr['CRPIX3'];
 minvel=crval3+(-crpix3+1)*cdelt3; maxvel=crval3+(cube.shape[0]-crpix3)*cdelt3
 chanwidth=abs(cdelt3)
@@ -468,21 +489,21 @@ p_gh.add('center',value=vels[50],min=np.min(vels),max=np.max(vels));
 p_gh.add('sig',value=3*chanwidth,min=chanwidth,max=abs(maxvel-minvel));
 p_gh.add('skew',value=0,vary=True,min=None,max=None);
 p_gh.add('kurt',value=0,vary=True,min=None,max=None);
- 
+
 def gaussfunc_gh(paramsin,x):
     amp=paramsin['amp'].value
     center=paramsin['center'].value
     sig=paramsin['sig'].value
-    c1=-np.sqrt(3); 
+    c1=-np.sqrt(3);
     c2=-np.sqrt(6)
-    c3=2/np.sqrt(3); 
-    c4=np.sqrt(6)/3; 
+    c3=2/np.sqrt(3);
+    c4=np.sqrt(6)/3;
     c5=np.sqrt(6)/4
     skew=paramsin['skew'].value
     kurt=paramsin['kurt'].value
     g=(x-center)/sig
     gaustot_gh=amp*np.exp(-.5*g**2)*(1+skew*(c1*g+c3*g**3)+ kurt*(c5+c2*g**2+c4*(g**4)))
-                                     
+
     return gaustot_gh
 </code></pre>
 
@@ -503,17 +524,17 @@ p_2g.add('sig1',value=2*chanwidth,min=chanwidth,max=abs(maxvel-minvel));
 p_2g.add('amp2',value=np.max(stackspec)/2.,min=.1*np.max(stackspec),max=np.max(stackspec));
 p_2g.add('center2',value=vels[50-10],min=np.min(vels),max=np.max(vels));
 p_2g.add('sig2',value=3*chanwidth,min=chanwidth,max=abs(maxvel-minvel));
- 
+
 def gaussfunc_2g(paramsin,x):
-    amp1=paramsin['amp1'].value; 
+    amp1=paramsin['amp1'].value;
     amp2=paramsin['amp2'].value;
-    center1=paramsin['center1'].value; 
+    center1=paramsin['center1'].value;
     center2=paramsin['center2'].value;
-    sig1=paramsin['sig1'].value; 
+    sig1=paramsin['sig1'].value;
     sig2=paramsin['sig2'].value;
     g1=(x-center1)/sig1
     g2=(x-center2)/sig2
-    
+
     gaus1=amp1*np.exp(-.5*g1**2)
     gaus2=amp2*np.exp(-.5*g2**2)
     gaustot_2g=(gaus1+gaus2)
@@ -558,7 +579,7 @@ resid_2g=fit_2g-stackspec
 
 print('Fitted Parameters (Gaus+Hermite):\nAmp = %.2f , Center = %.2f , Disp = %.2f\nSkew = %.2f , Kurt = %.2f' \
 %(pars_gh[0],pars_gh[1],pars_gh[2],pars_gh[3],pars_gh[4]))
- 
+
 print('Fitted Parameters (Double Gaussian):\nAmp1 = %.2f , Center1 = %.2f , Sig1 = %.2f\nAmp2 = %.2f , Center2 = %.2f , Sig2 = %.2f' \
 %(pars_2g[0],pars_2g[1],pars_2g[2],pars_2g[3],pars_2g[4],pars_2g[5]))
 </code></pre>
@@ -583,7 +604,7 @@ f1.set_xticklabels([]) #We will plot the residuals below, so no x-ticks on this 
 plt.title('Multiple Gaussian Fit Example')
 plt.ylabel('Amplitude (Some Units)')
 f1.legend([pgh,p2g,p2ga,p2gb],['Gaus-Hermite','2-Gaus','Comp. 1','Comp2'],prop={'size':10},loc='center left')
- 
+
 from matplotlib.ticker import MaxNLocator
 plt.gca().yaxis.set_major_locator(MaxNLocator(prune='lower')) #Removes lowest ytick label
 
@@ -597,9 +618,9 @@ f1.annotate('Double Gaussian:\nAmp$_1$ = %.2f\nAmp$_2$ = %.2f\nCenter$_1$ = %.2f
     bbox=dict(boxstyle=&quot;round&quot;, fc='1'),fontsize=10)
 
 f2=fig3.add_axes((.1,.1,.8,.2))
- 
+
 resgh,res2g,=plt.plot(vels,resid_gh,'k--',vels,resid_2g,'k')
- 
+
 plt.ylabel('Residuals')
 plt.xlabel('Velocity (km s$^{-1}$)')
 f2.legend([resgh,res2g],['Gaus-Hermite','2-Gaus'],numpoints=4,prop={'size':9},loc='upper left')
@@ -608,7 +629,7 @@ f2.legend([resgh,res2g],['Gaus-Hermite','2-Gaus'],numpoints=4,prop={'size':9},lo
 <pre><code>&lt;matplotlib.legend.Legend at 0x7fe51bc4ee50&gt;
 </code></pre>
 
-<p><img src="output_26_1.png" alt="png" /></p>
+<p><img src="../../img/posts/fitting-functions-to-data/output_26_1.png" alt="png" /></p>
 
     </div>
   </div>
@@ -619,12 +640,12 @@ f2.legend([resgh,res2g],['Gaus-Hermite','2-Gaus'],numpoints=4,prop={'size':9},lo
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://mscipio.github.io/post/pca-tutorial-using-scikit-learn-python-module/"><span
-      aria-hidden="true">&larr;</span> </a></li>
+    <li class="previous"><a href="https://mscipio.github.io/post/read_dicom_files_in_python/"><span
+      aria-hidden="true">&larr;</span> How to read DICOM files into Python</a></li>
     
 
     
-    <li class="next"><a href="https://mscipio.github.io/post/python_nonlinear_least_squares/"> <span
+    <li class="next"><a href="https://mscipio.github.io/post/posterior-distribution-of-parameter-estimate/">Calculating the posterior probability distribution of parameters with emcee python module <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>

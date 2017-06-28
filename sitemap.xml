@@ -104,7 +104,43 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/post/posterior-distribution-of-parameter-estimate/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/post/fitting-functions-to-data/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/post/read_dicom_files_in_python/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/post/pca-tutorial-using-scikit-learn-python-module/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/post/python_nonlinear_least_squares/</loc>
       <lastmod>2016-05-01T11:00:00+00:00</lastmod>
     </url>
     
@@ -176,38 +212,6 @@
     
     <url>
     
-      <loc>https://mscipio.github.io/post/python_nonlinear_least_squares/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://mscipio.github.io/post/fitting-functions-to-data/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://mscipio.github.io/post/pca-tutorial-using-scikit-learn-python-module/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
-      <loc>https://mscipio.github.io/post/posterior-distribution-of-parameter-estimate/</loc>
-    </url>
-    
-  
-    
-    
-    <url>
-    
       <loc>https://mscipio.github.io/publication_types/1/</loc>
       <lastmod>2017-03-01T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -220,6 +224,26 @@
     
       <loc>https://mscipio.github.io/publication_types/2/</loc>
       <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/bayes/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/bayesian/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -267,6 +291,16 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/tags/curve-fitting/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/tags/dce-mri/</loc>
       <lastmod>2017-06-26T00:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -278,6 +312,16 @@
     <url>
     
       <loc>https://mscipio.github.io/tags/dicom/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/emcee/</loc>
       <lastmod>2016-05-01T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
@@ -309,6 +353,26 @@
     
       <loc>https://mscipio.github.io/tags/kinetic-modeling/</loc>
       <lastmod>2017-06-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/least-squares/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/lmfit/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -367,8 +431,38 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/tags/optimization/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/pca/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/tags/pet/</loc>
       <lastmod>2017-06-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/posterior/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -397,7 +491,37 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/tags/pymc/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/tags/python/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/scikit-learn/</loc>
+      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/scipy/</loc>
       <lastmod>2016-05-01T11:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>

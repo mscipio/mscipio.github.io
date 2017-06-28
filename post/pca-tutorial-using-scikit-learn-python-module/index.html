@@ -43,7 +43,7 @@
 
   
 
-  <title> | Michele Scipioni</title>
+  <title>PCA tutorial using scikit-learn python module | Michele Scipioni</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -156,19 +156,36 @@
 
 
   <div class="article-container">
-    <h1 itemprop="name"></h1>
+    <h1 itemprop="name">PCA tutorial using scikit-learn python module</h1>
     
 
 <div class="article-metadata">
 
   <span class="article-date">
-    <time datetime="0001-01-01 00:00:00 &#43;0000 UTC" itemprop="datePublished">
-      Mon, Jan 1, 0001
+    <time datetime="2016-05-01 11:00:00 &#43;0000 UTC" itemprop="datePublished">
+      Sun, May 1, 2016
     </time>
   </span>
 
   
 
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/pca">PCA</a
+    >, 
+    
+    <a href="/tags/python">python</a
+    >, 
+    
+    <a href="/tags/scikit-learn">scikit-learn</a
+    >
+    
+  </span>
+  
   
 
   
@@ -184,28 +201,28 @@
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2fpca-tutorial-using-scikit-learn-python-module%2f"
+         href="https://twitter.com/intent/tweet?text=PCA%20tutorial%20using%20scikit-learn%20python%20module&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2fpca-tutorial-using-scikit-learn-python-module%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2fpca-tutorial-using-scikit-learn-python-module%2f&amp;title="
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2fpca-tutorial-using-scikit-learn-python-module%2f&amp;title=PCA%20tutorial%20using%20scikit-learn%20python%20module"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmscipio.github.io%2fpost%2fpca-tutorial-using-scikit-learn-python-module%2f&amp;title="
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmscipio.github.io%2fpost%2fpca-tutorial-using-scikit-learn-python-module%2f&amp;title=PCA%20tutorial%20using%20scikit-learn%20python%20module"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=&amp;body=https%3a%2f%2fmscipio.github.io%2fpost%2fpca-tutorial-using-scikit-learn-python-module%2f">
+         href="mailto:?subject=PCA%20tutorial%20using%20scikit-learn%20python%20module&amp;body=https%3a%2f%2fmscipio.github.io%2fpost%2fpca-tutorial-using-scikit-learn-python-module%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -251,7 +268,7 @@ print(X.shape)
 <pre><code>(200, 2)
 </code></pre>
 
-<p><img src="output_4_1.png" alt="png" /></p>
+<p><img src="../../img/posts/pca-tutorial-using-scikit-learn-python-module/output_4_1.png" alt="png" /></p>
 
 <p>We can see that there is a definite trend in the data. What PCA seeks to do is to find the Principal Axes in the data, and explain how important those axes are in describing the data distribution:</p>
 
@@ -304,7 +321,7 @@ plt.legend()
 <pre><code>&lt;matplotlib.legend.Legend at 0x7ff9f16f7f50&gt;
 </code></pre>
 
-<p><img src="output_12_1.png" alt="png" /></p>
+<p><img src="../../img/posts/pca-tutorial-using-scikit-learn-python-module/output_12_1.png" alt="png" /></p>
 
 <p>The light points are the original data, while the dark points are the projected version. We see that after truncating 5% of the variance of this dataset and then reprojecting it, the &ldquo;most important&rdquo; features of the data are maintained, and we&rsquo;ve compressed the data by 50%!</p>
 
@@ -333,7 +350,7 @@ plt.xlabel('number of components')
 plt.ylabel('cumulative explained variance');
 </code></pre>
 
-<p><img src="output_18_0.png" alt="png" /></p>
+<p><img src="../../img/posts/pca-tutorial-using-scikit-learn-python-module/output_18_0.png" alt="png" /></p>
 
 <p>Here we see that our two-dimensional projection loses a lot of information (as measured by the explained variance) and that we&rsquo;d need about 20 components to retain 90% of the variance. Looking at this plot for a high-dimensional dataset can help you understand the level of redundancy present in multiple observations.</p>
 
@@ -346,12 +363,12 @@ plt.ylabel('cumulative explained variance');
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://mscipio.github.io/post/posterior-distribution-of-parameter-estimate/"><span
-      aria-hidden="true">&larr;</span> </a></li>
+    <li class="previous"><a href="https://mscipio.github.io/post/python_nonlinear_least_squares/"><span
+      aria-hidden="true">&larr;</span> Simple nonlinear least squares curve fitting in Python</a></li>
     
 
     
-    <li class="next"><a href="https://mscipio.github.io/post/fitting-functions-to-data/"> <span
+    <li class="next"><a href="https://mscipio.github.io/post/read_dicom_files_in_python/">How to read DICOM files into Python <span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
