@@ -137,14 +137,9 @@ pl.show()
 wavPlayer(s1, fs1)
 &lt;/code&gt;&lt;/pre&gt;
 
-&lt;pre&gt;&lt;code&gt;Populating the interactive namespace from numpy and matplotlib
-
-
-/usr/local/lib/python2.7/dist-packages/scipy/signal/signaltools.py:1741: VisibleDeprecationWarning: using a non-integer number instead of an integer will result in an error in the future
-  Y = zeros(newshape, &#39;D&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
 &lt;p&gt;&lt;img src=&#34;../../img/posts/bss-shogun-python/output_8_2.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&#34;../../data/posts/audio1.wav&#34; alt=&#34;&#34; /&gt;&lt;/p&gt;
 
 &lt;p&gt;Now let&amp;rsquo;s load a second audio clip:&lt;/p&gt;
 

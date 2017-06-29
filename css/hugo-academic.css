@@ -167,7 +167,7 @@ blockquote {
 }
 blockquote p:last-child {
   margin-bottom: 0;
-  font-size: 0.7rem;
+  font-size: 0.6rem;
 }
 @media (min-width: 30em) {
   blockquote {
