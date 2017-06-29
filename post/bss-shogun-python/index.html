@@ -358,7 +358,12 @@ wavPlayer(s1, fs1)
 
 <p><img src="../../img/posts/bss-shogun-python/output_8_2.png" alt="png" /></p>
 
-<p><img src="../../data/posts/audio1.wav" alt="" /></p>
+<div ID="div-2" style="display: table; margin: 0 auto;">
+<audio controls="controls" >
+  <source type="audio/wav" src="../../data/posts/audio1.wav"></source>
+</audio>
+<p></p>
+</div>
 
 <p>Now let&rsquo;s load a second audio clip:</p>
 
@@ -375,7 +380,13 @@ pl.show()
 wavPlayer(s2, fs2)
 </code></pre>
 
-<p><img src="../../img/posts/bss-shogun-python/output_10_0.png" alt="png" /></p>
+<p><img src="../../img/posts/bss-shogun-python/output_10_0.png" alt="png" />
+<div ID="div-2" style="display: table; margin: 0 auto;">
+<audio controls="controls" >
+  <source type="audio/wav" src="../../data/posts/audio2.wav"></source>
+</audio>
+<p></p>
+</div></p>
 
 <p>and a third audio clip:</p>
 
@@ -392,7 +403,13 @@ pl.show()
 wavPlayer(s3, fs3)
 </code></pre>
 
-<p><img src="../../img/posts/bss-shogun-python/output_12_0.png" alt="png" /></p>
+<p><img src="../../img/posts/bss-shogun-python/output_12_0.png" alt="png" />
+<div ID="div-2" style="display: table; margin: 0 auto;">
+<audio controls="controls" >
+  <source type="audio/wav" src="../../data/posts/audio3.wav"></source>
+</audio>
+<p></p>
+</div></p>
 
 <p>Now we&rsquo;ve got our audio files loaded up into our example program. The next thing we need to do is mix them together!</p>
 
@@ -445,11 +462,29 @@ for i in range(X.shape[0]):
  [ 0.5  0.5  1. ]]
 </code></pre>
 
-<p><img src="../../img/posts/bss-shogun-python/output_14_1.png" alt="png" /></p>
+<p><img src="../../img/posts/bss-shogun-python/output_14_1.png" alt="png" />
+<div ID="div-2" style="display: table; margin: 0 auto;">
+<audio controls="controls" >
+  <source type="audio/wav" src="../../data/posts/mixaudio1.wav"></source>
+</audio>
+<p></p>
+</div></p>
 
-<p><img src="../../img/posts/bss-shogun-python/output_14_3.png" alt="png" /></p>
+<p><img src="../../img/posts/bss-shogun-python/output_14_3.png" alt="png" />
+<div ID="div-2" style="display: table; margin: 0 auto;">
+<audio controls="controls" >
+  <source type="audio/wav" src="../../data/posts/mixaudio2.wav"></source>
+</audio>
+<p></p>
+</div></p>
 
-<p><img src="../../img/posts/bss-shogun-python/output_14_5.png" alt="png" /></p>
+<p><img src="../../img/posts/bss-shogun-python/output_14_5.png" alt="png" />
+<div ID="div-2" style="display: table; margin: 0 auto;">
+<audio controls="controls" >
+  <source type="audio/wav" src="../../data/posts/mixaudio3.wav"></source>
+</audio>
+<p></p>
+</div></p>
 
 <p>Now before we can work on separating these signals we need to get the data ready for Shogun.
 Thankfully this is pretty easy!</p>
@@ -509,11 +544,29 @@ for i in range(S_.shape[0]):
     wavPlayer((gain*S_[i]).astype(np.int16), fs)
 </code></pre>
 
-<p><img src="../../img/posts/bss-shogun-python/output_20_0.png" alt="png" /></p>
+<p><img src="../../img/posts/bss-shogun-python/output_20_0.png" alt="png" />
+<div ID="div-2" style="display: table; margin: 0 auto;">
+<audio controls="controls" >
+  <source type="audio/wav" src="../../data/posts/unmixaudio1.wav"></source>
+</audio>
+<p></p>
+</div></p>
 
-<p><img src="../../img/posts/bss-shogun-python/output_20_2.png" alt="png" /></p>
+<p><img src="../../img/posts/bss-shogun-python/output_20_2.png" alt="png" />
+<div ID="div-2" style="display: table; margin: 0 auto;">
+<audio controls="controls" >
+  <source type="audio/wav" src="../../data/posts/unmixaudio2.wav"></source>
+</audio>
+<p></p>
+</div></p>
 
-<p><img src="../../img/posts/bss-shogun-python/output_20_4.png" alt="png" /></p>
+<p><img src="../../img/posts/bss-shogun-python/output_20_4.png" alt="png" />
+<div ID="div-2" style="display: table; margin: 0 auto;">
+<audio controls="controls" >
+  <source type="audio/wav" src="../../data/posts/unmixaudio3.wav"></source>
+</audio>
+<p></p>
+</div></p>
 
 <p>BSS isn&rsquo;t only useful for working with Audio, it is also useful for image processing and pre-processing other forms of high dimensional data.
 Have a google for ICA and machine learning if you want to learn more, but we will sure come back in the future on this topic!</p>
