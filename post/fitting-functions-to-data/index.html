@@ -243,36 +243,54 @@
     <div class="article-style" itemprop="articleBody">
       
 
-<p>There are several data fitting utilities available. We will focus on two:
-* scipy.optimize
-* lmfit.minimize</p>
+<p>There are several data fitting utilities available. We will focus on two:</p>
+
+<ul>
+<li><p>scipy.optimize</p></li>
+
+<li><p>lmfit.minimize</p></li>
+</ul>
 
 <p>Using both those modules, you can fit any arbitrary function that you define and it is, also, possible to constrain given parameters during the fit. Another important aspect is that both packages come with useful
 diagnostic tools.</p>
 
 <h2 id="fitting-basics">Fitting Basics</h2>
 
-<p>The <em>fitting</em> we discuss here is an iterative process.
-* First, we define our <strong>desired function</strong>, and calculate values given certain parameters
-* Then we <strong>calculate the difference</strong> between the initial and the new values</p>
+<p>The <em>fitting</em> we discuss here is an iterative process.</p>
+
+<ul>
+<li><p>First, we define our <strong>desired function</strong>, and calculate values given certain parameters</p></li>
+
+<li><p>Then we <strong>calculate the difference</strong> between the initial and the new values</p></li>
+</ul>
 
 <p>The final aim is to minimize this difference (specifically, we generally minimize the sum of the squares of these differences).<!-- TEASER_END --></p>
 
 <p>Several examples can be found at <a href="http://www.scipy.org/Cookbook/FittingData" target="_blank">http://www.scipy.org/Cookbook/FittingData</a></p>
 
-<p>Minimization is usually done by the method of <strong>least squares fitting</strong>. There are several algorithms available for this minimization.
-* The most common is the <strong>Levenberg-Marquardt</strong>:
-    - Susceptible to finding <em>local minima</em> instead of <em>global</em>
-    - Fast
-    - Usually well-behaved for most functions
-    - By far the <em>most tested of methods</em>, with many accompanying statistics implemented
-* Other methods include the <strong>Nelder-Mead</strong>, <strong>L-BFGS-B</strong>, and <strong>Simulated Annealing</strong>algorithms</p>
+<p>Minimization is usually done by the method of <strong>least squares fitting</strong>. There are several algorithms available for this minimization.</p>
+
+<ul>
+<li><p>The most common is the <strong>Levenberg-Marquardt</strong>:</p>
+
+<ul>
+<li>Susceptible to finding <em>local minima</em> instead of <em>global</em></li>
+<li>Fast</li>
+<li>Usually well-behaved for most functions</li>
+<li>By far the <em>most tested of methods</em>, with many accompanying statistics implemented</li>
+</ul></li>
+
+<li><p>Other methods include the <strong>Nelder-Mead</strong>, <strong>L-BFGS-B</strong>, and <strong>Simulated Annealing</strong> algorithms</p></li>
+</ul>
 
 <h2 id="goodness-of-fit-gof">Goodness-of-Fit (GoF)</h2>
 
-<p>There are several statistics that can help you determine the goodness-of-fit. Most commonly used are:
-* reduced chi-squared
-* Standard error</p>
+<p>There are several statistics that can help you determine the goodness-of-fit. Most commonly used are:</p>
+
+<ul>
+<li>reduced chi-squared</li>
+<li>Standard error</li>
+</ul>
 
 <p>You can get these and other tools for free with <strong>lmfit.minimize</strong></p>
 
@@ -282,16 +300,19 @@ diagnostic tools.</p>
 
 <p>$$ y = ax^2 + bx + c $$</p>
 
-<p>What we will do:
-* Generate some data for the example
-* Define the function we wish to fit
-* Use <strong>scipy.optimize</strong> to do the actual optimization</p>
+<p>What we will do:</p>
+
+<ul>
+<li>Generate some data for the example</li>
+<li>Define the function we wish to fit</li>
+<li>Use <strong>scipy.optimize</strong> to do the actual optimization</li>
+</ul>
 
 <p>Let&rsquo;s assume the following:</p>
 
 <ol>
 <li>The x-data is an array from -3 to 10</li>
-<li>The y-data is x2, with some random noise added.</li>
+<li>The y-data is $x^2$, with some random noise added.</li>
 <li>Let&rsquo;s put our initial guesses for the coefficients a,b,c into a list called p0 (for fit parameters)</li>
 </ol>
 
@@ -440,7 +461,9 @@ stackspec=stackspec[::-1]
 </ul>
 
 <blockquote>
-<p>$f(x) = Ae^{-g^<sup>2</sup>&frasl;<sub>2</sub>}$ where $g = \frac{x-x_c}{\sigma}$</p>
+<p>$ f(x) = A e^{\frac{-g^2}{2}} $</p>
+
+<p>$ g = \frac{x-x_c}{\sigma} $</p>
 </blockquote>
 
 <ul>
@@ -448,7 +471,7 @@ stackspec=stackspec[::-1]
 </ul>
 
 <blockquote>
-<p>$F(x) = \sum_i f_i(x) = A_1e^{-g_1^<sup>2</sup>&frasl;<sub>2</sub>} + A_2e^{-g_2^<sup>2</sup>&frasl;<sub>2</sub>} + \dots$</p>
+<p>$ F(x) = \sum_i f_i(x) = A_1e^{\frac{-g_1^2}{2}} + A_2e^{\frac{-g_2^2}{2}} + \dots $</p>
 </blockquote>
 
 <ul>
@@ -456,7 +479,7 @@ stackspec=stackspec[::-1]
 </ul>
 
 <blockquote>
-<p>$f(x) = Ae^{-g^<sup>2</sup>&frasl;<sub>2</sub>} [ 1+h_3(-\sqrt{3}g+\frac{2}{\sqrt{3}}g^3 ) + h_4 (\frac{\sqrt{6}}{4}-\sqrt{6}g^2+\frac{\sqrt{6}}{3}g^4)] $</p>
+<p>$f(x) = Ae^{\frac{-g^2}{2}} [ 1+h_3(-\sqrt{3}g+\frac{2}{\sqrt{3}}g^3 ) + h_4 (\frac{\sqrt{6}}{4}-\sqrt{6}g^2+\frac{\sqrt{6}}{3}g^4)] $</p>
 </blockquote>
 
 <ul>
@@ -476,7 +499,7 @@ stackspec=stackspec[::-1]
 
 <p>$\xi_f = \xi_2-3$</p>
 
-<p>$\xi_f \sim 8\sqrt{6}h_4$</p>
+<p>$\xi_f \sim 8\sqrt{6}h_4$$</p>
 </blockquote>
 
 <p>Set up the <strong>lmfit.Parameters()</strong> and define the <em>Gauss-Hermite function</em>:</p>
@@ -626,9 +649,6 @@ plt.xlabel('Velocity (km s$^{-1}$)')
 f2.legend([resgh,res2g],['Gaus-Hermite','2-Gaus'],numpoints=4,prop={'size':9},loc='upper left')
 </code></pre>
 
-<pre><code>&lt;matplotlib.legend.Legend at 0x7fe51bc4ee50&gt;
-</code></pre>
-
 <p><img src="../../img/posts/fitting-functions-to-data/output_26_1.png" alt="png" /></p>
 
     </div>
@@ -702,6 +722,13 @@ f2.legend([resgh,res2g],['Gaus-Hermite','2-Gaus'],numpoints=4,prop={'size':9},lo
       <script>hljs.initHighlightingOnLoad();</script>
     
 
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
     
     
 

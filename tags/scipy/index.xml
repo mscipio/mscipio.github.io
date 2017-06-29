@@ -18,36 +18,54 @@
       <guid>https://mscipio.github.io/post/fitting-functions-to-data/</guid>
       <description>
 
-&lt;p&gt;There are several data fitting utilities available. We will focus on two:
-* scipy.optimize
-* lmfit.minimize&lt;/p&gt;
+&lt;p&gt;There are several data fitting utilities available. We will focus on two:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;scipy.optimize&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;lmfit.minimize&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Using both those modules, you can fit any arbitrary function that you define and it is, also, possible to constrain given parameters during the fit. Another important aspect is that both packages come with useful
 diagnostic tools.&lt;/p&gt;
 
 &lt;h2 id=&#34;fitting-basics&#34;&gt;Fitting Basics&lt;/h2&gt;
 
-&lt;p&gt;The &lt;em&gt;fitting&lt;/em&gt; we discuss here is an iterative process.
-* First, we define our &lt;strong&gt;desired function&lt;/strong&gt;, and calculate values given certain parameters
-* Then we &lt;strong&gt;calculate the difference&lt;/strong&gt; between the initial and the new values&lt;/p&gt;
+&lt;p&gt;The &lt;em&gt;fitting&lt;/em&gt; we discuss here is an iterative process.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;First, we define our &lt;strong&gt;desired function&lt;/strong&gt;, and calculate values given certain parameters&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Then we &lt;strong&gt;calculate the difference&lt;/strong&gt; between the initial and the new values&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;The final aim is to minimize this difference (specifically, we generally minimize the sum of the squares of these differences).&lt;!-- TEASER_END --&gt;&lt;/p&gt;
 
 &lt;p&gt;Several examples can be found at &lt;a href=&#34;http://www.scipy.org/Cookbook/FittingData&#34; target=&#34;_blank&#34;&gt;http://www.scipy.org/Cookbook/FittingData&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;Minimization is usually done by the method of &lt;strong&gt;least squares fitting&lt;/strong&gt;. There are several algorithms available for this minimization.
-* The most common is the &lt;strong&gt;Levenberg-Marquardt&lt;/strong&gt;:
-    - Susceptible to finding &lt;em&gt;local minima&lt;/em&gt; instead of &lt;em&gt;global&lt;/em&gt;
-    - Fast
-    - Usually well-behaved for most functions
-    - By far the &lt;em&gt;most tested of methods&lt;/em&gt;, with many accompanying statistics implemented
-* Other methods include the &lt;strong&gt;Nelder-Mead&lt;/strong&gt;, &lt;strong&gt;L-BFGS-B&lt;/strong&gt;, and &lt;strong&gt;Simulated Annealing&lt;/strong&gt;algorithms&lt;/p&gt;
+&lt;p&gt;Minimization is usually done by the method of &lt;strong&gt;least squares fitting&lt;/strong&gt;. There are several algorithms available for this minimization.&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;The most common is the &lt;strong&gt;Levenberg-Marquardt&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Susceptible to finding &lt;em&gt;local minima&lt;/em&gt; instead of &lt;em&gt;global&lt;/em&gt;&lt;/li&gt;
+&lt;li&gt;Fast&lt;/li&gt;
+&lt;li&gt;Usually well-behaved for most functions&lt;/li&gt;
+&lt;li&gt;By far the &lt;em&gt;most tested of methods&lt;/em&gt;, with many accompanying statistics implemented&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Other methods include the &lt;strong&gt;Nelder-Mead&lt;/strong&gt;, &lt;strong&gt;L-BFGS-B&lt;/strong&gt;, and &lt;strong&gt;Simulated Annealing&lt;/strong&gt; algorithms&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;h2 id=&#34;goodness-of-fit-gof&#34;&gt;Goodness-of-Fit (GoF)&lt;/h2&gt;
 
-&lt;p&gt;There are several statistics that can help you determine the goodness-of-fit. Most commonly used are:
-* reduced chi-squared
-* Standard error&lt;/p&gt;
+&lt;p&gt;There are several statistics that can help you determine the goodness-of-fit. Most commonly used are:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;reduced chi-squared&lt;/li&gt;
+&lt;li&gt;Standard error&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;You can get these and other tools for free with &lt;strong&gt;lmfit.minimize&lt;/strong&gt;&lt;/p&gt;
 
@@ -57,16 +75,19 @@ diagnostic tools.&lt;/p&gt;
 
 &lt;p&gt;$$ y = ax^2 + bx + c $$&lt;/p&gt;
 
-&lt;p&gt;What we will do:
-* Generate some data for the example
-* Define the function we wish to fit
-* Use &lt;strong&gt;scipy.optimize&lt;/strong&gt; to do the actual optimization&lt;/p&gt;
+&lt;p&gt;What we will do:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;Generate some data for the example&lt;/li&gt;
+&lt;li&gt;Define the function we wish to fit&lt;/li&gt;
+&lt;li&gt;Use &lt;strong&gt;scipy.optimize&lt;/strong&gt; to do the actual optimization&lt;/li&gt;
+&lt;/ul&gt;
 
 &lt;p&gt;Let&amp;rsquo;s assume the following:&lt;/p&gt;
 
 &lt;ol&gt;
 &lt;li&gt;The x-data is an array from -3 to 10&lt;/li&gt;
-&lt;li&gt;The y-data is x2, with some random noise added.&lt;/li&gt;
+&lt;li&gt;The y-data is $x^2$, with some random noise added.&lt;/li&gt;
 &lt;li&gt;Let&amp;rsquo;s put our initial guesses for the coefficients a,b,c into a list called p0 (for fit parameters)&lt;/li&gt;
 &lt;/ol&gt;
 
@@ -215,7 +236,9 @@ stackspec=stackspec[::-1]
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;$f(x) = Ae^{-g^&lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;}$ where $g = \frac{x-x_c}{\sigma}$&lt;/p&gt;
+&lt;p&gt;$ f(x) = A e^{\frac{-g^2}{2}} $&lt;/p&gt;
+
+&lt;p&gt;$ g = \frac{x-x_c}{\sigma} $&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
@@ -223,7 +246,7 @@ stackspec=stackspec[::-1]
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;$F(x) = \sum_i f_i(x) = A_1e^{-g_1^&lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;} + A_2e^{-g_2^&lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;} + \dots$&lt;/p&gt;
+&lt;p&gt;$ F(x) = \sum_i f_i(x) = A_1e^{\frac{-g_1^2}{2}} + A_2e^{\frac{-g_2^2}{2}} + \dots $&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
@@ -231,7 +254,7 @@ stackspec=stackspec[::-1]
 &lt;/ul&gt;
 
 &lt;blockquote&gt;
-&lt;p&gt;$f(x) = Ae^{-g^&lt;sup&gt;2&lt;/sup&gt;&amp;frasl;&lt;sub&gt;2&lt;/sub&gt;} [ 1+h_3(-\sqrt{3}g+\frac{2}{\sqrt{3}}g^3 ) + h_4 (\frac{\sqrt{6}}{4}-\sqrt{6}g^2+\frac{\sqrt{6}}{3}g^4)] $&lt;/p&gt;
+&lt;p&gt;$f(x) = Ae^{\frac{-g^2}{2}} [ 1+h_3(-\sqrt{3}g+\frac{2}{\sqrt{3}}g^3 ) + h_4 (\frac{\sqrt{6}}{4}-\sqrt{6}g^2+\frac{\sqrt{6}}{3}g^4)] $&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;ul&gt;
@@ -251,7 +274,7 @@ stackspec=stackspec[::-1]
 
 &lt;p&gt;$\xi_f = \xi_2-3$&lt;/p&gt;
 
-&lt;p&gt;$\xi_f \sim 8\sqrt{6}h_4$&lt;/p&gt;
+&lt;p&gt;$\xi_f \sim 8\sqrt{6}h_4$$&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;p&gt;Set up the &lt;strong&gt;lmfit.Parameters()&lt;/strong&gt; and define the &lt;em&gt;Gauss-Hermite function&lt;/em&gt;:&lt;/p&gt;
@@ -399,9 +422,6 @@ resgh,res2g,=plt.plot(vels,resid_gh,&#39;k--&#39;,vels,resid_2g,&#39;k&#39;)
 plt.ylabel(&#39;Residuals&#39;)
 plt.xlabel(&#39;Velocity (km s$^{-1}$)&#39;)
 f2.legend([resgh,res2g],[&#39;Gaus-Hermite&#39;,&#39;2-Gaus&#39;],numpoints=4,prop={&#39;size&#39;:9},loc=&#39;upper left&#39;)
-&lt;/code&gt;&lt;/pre&gt;
-
-&lt;pre&gt;&lt;code&gt;&amp;lt;matplotlib.legend.Legend at 0x7fe51bc4ee50&amp;gt;
 &lt;/code&gt;&lt;/pre&gt;
 
 &lt;p&gt;&lt;img src=&#34;../../img/posts/fitting-functions-to-data/output_26_1.png&#34; alt=&#34;png&#34; /&gt;&lt;/p&gt;
