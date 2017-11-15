@@ -11,6 +11,32 @@
     <atom:link href="/post/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Changelog for KMtoolbox repository - November 14, 2017</title>
+      <link>https://mscipio.github.io/post/update_kmtool_repo_14november17/</link>
+      <pubDate>Wed, 15 Nov 2017 11:00:00 +0100</pubDate>
+      
+      <guid>https://mscipio.github.io/post/update_kmtool_repo_14november17/</guid>
+      <description>
+
+&lt;h4 id=&#34;changelog-for-kmtoolbox-repository-november-14-2017&#34;&gt;Changelog for KMtoolbox repository - November 14, 2017&lt;/h4&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;p&gt;Fixed some issues on code duplication&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Created a setup file to add all the needed source files to Matlab&amp;rsquo;s path
+&lt;img src=&#34;../../img/KMtool_project_page/setup_script.png&#34; alt=&#34;new setup script&#34; title=&#34;Logo Title Text 1&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Added some new colormap and a multiple choice of how to set up colorbar limit to improve the quality of image visualization
+&lt;img src=&#34;../../img/KMtool_project_page/new_colormaps.png&#34; alt=&#34;new colormap choices&#34; title=&#34;Logo Title Text 1&#34; /&gt;
+&lt;img src=&#34;../../img/KMtool_project_page/new_clim.png&#34; alt=&#34;new clims controls&#34; title=&#34;Logo Title Text 1&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Added a new example dataset with heart data
+&lt;img src=&#34;../../img/KMtool_project_page/heart_dataset.png&#34; alt=&#34;new example heart dataset&#34; title=&#34;Logo Title Text 1&#34; /&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Creation of a GitHub repository for lectures material</title>
       <link>https://mscipio.github.io/post/updated-lectures-repository/</link>
       <pubDate>Tue, 14 Nov 2017 13:49:34 +0100</pubDate>

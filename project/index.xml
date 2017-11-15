@@ -53,11 +53,33 @@ Keep checking the website for future updates.&lt;/p&gt;
       <guid>https://mscipio.github.io/project/kmtoolbox/</guid>
       <description>
 
-&lt;p&gt;&lt;a href=&#34;https://github.com/mscipio/KMtoolbox&#34; target=&#34;_blank&#34;&gt;SOURCE CODE&lt;/a&gt;&lt;/p&gt;
-
 &lt;p&gt;Kinetic Modeling Toolbox designed to estimate kinetic parameters from 4D PET and DCE-MRI dataset at a ROI level&lt;/p&gt;
 
-&lt;h4 id=&#34;a-few-screenshots&#34;&gt;A few screenshots:&lt;/h4&gt;
+&lt;p&gt;&lt;a href=&#34;https://github.com/mscipio/KMtoolbox&#34; style=&#34;color:red&#34;&gt;&lt;b&gt;[GitHub SOURCE CODE]&lt;/b&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;updates&#34;&gt;Updates:&lt;/h3&gt;
+
+&lt;p&gt;&lt;em&gt;November 14, 2017&lt;/em&gt; &amp;ndash;&amp;gt; &lt;a href=&#34;http://mscipio.github.io/post/update_kmtool_repo_14november17/&#34; target=&#34;_blank&#34;&gt;[Check the related blog post]&lt;/a&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;&amp;gt; Fixed some issues on code duplication
+
+&amp;gt; Created a setup file to add all the needed source files to Matlab&#39;s path
+
+&amp;gt; Added some new colormap and a multiple choice of how to set up colorbar limit to improve the quality of image visualization 
+
+&amp;gt; Added a new example dataset with heart data
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;p&gt;&lt;em&gt;June, 2017&lt;/em&gt;&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-text&#34;&gt;&amp;gt; First commit and publication of the toolbox on GitHub
+&lt;/code&gt;&lt;/pre&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&#34;a-few-screenshots&#34;&gt;A few screenshots:&lt;/h3&gt;
 
 &lt;p&gt;&lt;strong&gt;Loading 4D volume:&lt;/strong&gt;&lt;/p&gt;
 
