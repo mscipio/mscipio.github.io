@@ -11,6 +11,32 @@
     <atom:link href="/talk/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Kinetic Compressive Sensing</title>
+      <link>https://mscipio.github.io/talk/ieee-nss-mic-2017/</link>
+      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/talk/ieee-nss-mic-2017/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../data/conferences/IEEE-NSS-MIC-2017/poster.png&#34; alt=&#34;Kinetic Compressive Sensing - EIEEE Nuclear Science Symposium and Medical Imaging Conference - 2017 - poster&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Parametric images provide insight into the spatial distribution of physiological parameters, but they are often extremely noisy, due to low SNR of tomographic data. Direct estimation from projections allows accurate noise modeling, improving the results of post-reconstruction fitting. We propose a method, which we name kinetic compressive sensing (KCS), based on a hierarchical Bayesian model and on a novel reconstruction algorithm, that encodes sparsity of kinetic parameters.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;The model has three key components: the model of the acquisition system; the kinetic model; and a Markov Random Field with an L1-norm cost function, defined in kinetic parameters domain. Parametric maps are reconstructed by maximizing the joint probability, with an Iterated Conditional Modes approach, alternating the optimization of activity time series (OSL-MAP-EM), and kinetic parameters (MAP-LM): a parallel GPU implementation allows synchronized update of all the voxels, computing the gradient of the log joint posterior at each iteration.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Experiments&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;100 noise realizations of a simulated dynamic geometric phantom were generated using a 2TC irreversible model. A bias/variance study confirmed how direct estimates can improve the quality of parametric maps over a post-reconstruction fitting, and showed how the novel sparsity prior can further reduce their variance, without affecting bias. Real FDG PET human brain data (Siemens mMR, 40min) images were also processed. Results enforced how the proposed KCS-regularized direct method can produce spatially coherent images and parametric maps, with lower spatial and better tissue contrast.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Combining sparse kinetic compressive sensing into a direct reconstruction framework can help generating high-quality images and parametric maps, both amenable for display and quantitatively more accurate than what a post-reconstruction fitting can achieve. A GPU-based open source implementation of the algorithm is provided.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Kinetic compressive sensing: improving image reconstruction and parametric maps</title>
       <link>https://mscipio.github.io/talk/martinosopenhouse17/</link>
       <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
