@@ -5,6 +5,24 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/post/matlab_toolbox_nbin_mu/</loc>
+      <lastmod>2017-11-16T10:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/project/matlab_nbin_mu/</loc>
+      <lastmod>2017-11-16T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/post/update_kmtool_repo_14november17/</loc>
       <lastmod>2017-11-15T11:00:00+01:00</lastmod>
     </url>
@@ -348,6 +366,16 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/tags/distribution/</loc>
+      <lastmod>2017-11-16T10:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/tags/emcee/</loc>
       <lastmod>2016-05-01T11:00:00+00:00</lastmod>
       <priority>0</priority>
@@ -419,7 +447,7 @@
     <url>
     
       <loc>https://mscipio.github.io/tags/matlab/</loc>
-      <lastmod>2017-11-15T11:00:00+01:00</lastmod>
+      <lastmod>2017-11-16T10:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -440,6 +468,26 @@
     
       <loc>https://mscipio.github.io/</loc>
       <lastmod>2017-06-23T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/nb/</loc>
+      <lastmod>2017-11-16T10:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/negative-binomial/</loc>
+      <lastmod>2017-11-16T10:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -508,8 +556,18 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/tags/probability/</loc>
+      <lastmod>2017-11-16T10:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/project/</loc>
-      <lastmod>2017-06-26T00:00:00+00:00</lastmod>
+      <lastmod>2017-11-16T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -568,8 +626,28 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/tags/software/</loc>
+      <lastmod>2017-11-16T10:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/tags/spect/</loc>
       <lastmod>2017-06-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/statistics/</loc>
+      <lastmod>2017-11-16T10:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -590,6 +668,16 @@
     
       <loc>https://mscipio.github.io/tags/tomographic-reconstruction/</loc>
       <lastmod>2017-06-26T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/toolbox/</loc>
+      <lastmod>2017-11-16T10:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
