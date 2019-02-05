@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Matlab.engine on Michele Scipioni</title>
+    <link>https://mscipio.github.io/tags/matlab.engine/</link>
+    <description>Recent content in Matlab.engine on Michele Scipioni</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Michele Scipioni</copyright>
+    <lastBuildDate>Tue, 05 Feb 2019 10:26:46 +0100</lastBuildDate>
+    
+	<atom:link href="https://mscipio.github.io/tags/matlab.engine/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Calling Matlab (custom) functions from Python</title>
+      <link>https://mscipio.github.io/post/matlab-from-python/</link>
+      <pubDate>Tue, 05 Feb 2019 10:26:46 +0100</pubDate>
+      
+      <guid>https://mscipio.github.io/post/matlab-from-python/</guid>
+      <description>Nowadays the ability to write codes has become an essential skill in technical and scientific disciplines. Either you like it or not, during your studies you will find yourself doing assignments, solving equations or bigger &amp;lsquo;problems&amp;rsquo; of your projects with some sort of coding. And, if you think of going for higher studies and doing some extensive research, then writing codes is a must know skill for you.
+Quite often, students will become familiar with scientific programming (note that I am not specifically refferring to CS students, focused on general purpose coding and programming) through MATLAB.</description>
+    </item>
+    
+  </channel>
+</rss>

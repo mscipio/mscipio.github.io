@@ -5,6 +5,15 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/post/matlab-from-python/</loc>
+      <lastmod>2019-02-05T10:26:46+01:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/post/matlab_toolbox_nbin_mu/</loc>
       <lastmod>2017-11-16T10:00:00+00:00</lastmod>
     </url>
@@ -447,7 +456,17 @@
     <url>
     
       <loc>https://mscipio.github.io/tags/matlab/</loc>
-      <lastmod>2017-11-16T10:00:00+00:00</lastmod>
+      <lastmod>2019-02-05T10:26:46+01:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/tags/matlab.engine/</loc>
+      <lastmod>2019-02-05T10:26:46+01:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -597,7 +616,7 @@
     <url>
     
       <loc>https://mscipio.github.io/tags/python/</loc>
-      <lastmod>2016-05-01T11:00:00+00:00</lastmod>
+      <lastmod>2019-02-05T10:26:46+01:00</lastmod>
       <priority>0</priority>
     </url>
     

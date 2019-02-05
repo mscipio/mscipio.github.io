@@ -8,7 +8,73 @@
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Michele Scipioni</copyright>
     <lastBuildDate>Thu, 16 Nov 2017 00:00:00 +0000</lastBuildDate>
-    <atom:link href="/home/" rel="self" type="application/rss+xml" />
+    
+	<atom:link href="https://mscipio.github.io/home/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title></title>
+      <link>https://mscipio.github.io/home/about/</link>
+      <pubDate>Thu, 16 Nov 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/home/about/</guid>
+      <description>About me I&amp;rsquo;m an Italian Biomedical Engineer and Ph.D. student. My main research interests, at the moment, include medical imaging tomographic image reconstruction (mainly PET and MRI), and kinetic modeling of dynamic acquisitions, with a specific focus on parametric mapping.
+During the first two years of my Ph.D., I have been dealing with theoretical and computational issues, related to the previously mentioned topics. Working with pharmacokinetic modeling, I have to deal with non-linear optimization, and fitting of complex ODE-based compartmental models, while tomographic image reconstruction requires me to solve complex inverse optimization problems.</description>
+    </item>
+    
+    <item>
+      <title>Recent Posts</title>
+      <link>https://mscipio.github.io/home/posts/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/home/posts/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Publications</title>
+      <link>https://mscipio.github.io/home/publications/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/home/publications/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Recent &amp; Upcoming Talks</title>
+      <link>https://mscipio.github.io/home/talks/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/home/talks/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Projects</title>
+      <link>https://mscipio.github.io/home/projects/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/home/projects/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>https://mscipio.github.io/home/teaching/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/home/teaching/</guid>
+      <description> 2017  University of Pisa - Department of Information Engineering - Master of Science in Biomedical Engineering  Iterative reconstruction techniques for emission tomography imaging: ML-EM, OS-EM, and MAP-OSL-EM   2016  University of Pisa - Department of Information Engineering - Master of Science in Biomedical Engineering  Iterative reconstruction techniques for emission tomography imaging: ML-EM, OS-EM, and MAP-OSL-EM Introduction to kinetic modeling for emission tomography: focus on compartmental models (meaning, use, and interpratation)   </description>
+    </item>
+    
+    <item>
+      <title>Contact</title>
+      <link>https://mscipio.github.io/home/contact/</link>
+      <pubDate>Fri, 23 Jun 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/home/contact/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>
