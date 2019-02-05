@@ -7,10 +7,55 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Michele Scipioni</copyright>
-    <lastBuildDate>Mon, 01 Aug 2016 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Sep 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mscipio.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Concurrent Respiratory Motion Correction of Abdominal PET and Dynamic Contrast-Enhanced–MRI Using a Compressed Sensing Approach</title>
+      <link>https://mscipio.github.io/publication/concurrent-moco-fuin/</link>
+      <pubDate>Sat, 01 Sep 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/concurrent-moco-fuin/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Comparison of the clinical performance of upper abdominal PET/DCE-MRI with and without concurrent respiratory motion correction (MoCo)</title>
+      <link>https://mscipio.github.io/publication/comparison-moco-catalano/</link>
+      <pubDate>Wed, 11 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/comparison-moco-catalano/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct parametric maps estimation from dynamic PET data: an iterated conditional modes approach</title>
+      <link>https://mscipio.github.io/publication/icm-em/</link>
+      <pubDate>Sun, 08 Jul 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/icm-em/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Accelerated PET kinetic maps estimation by analytic fitting method</title>
+      <link>https://mscipio.github.io/publication/fast-kinetic-modeling/</link>
+      <pubDate>Wed, 20 Jun 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/fast-kinetic-modeling/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>New Imaging Frontiers in Cardiology: Fast and Quantitative Maps from Raw Data</title>
+      <link>https://mscipio.github.io/publication/newimagingfrontiers/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/newimagingfrontiers/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>A Conway-Maxwell-Poisson (CMP) model to address data dispersion on positron emission tomography</title>

@@ -14,6 +14,60 @@
     
     <url>
     
+      <loc>https://mscipio.github.io/publication/kinetic-compressive-sensing/</loc>
+      <lastmod>2018-11-15T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/publication/concurrent-moco-fuin/</loc>
+      <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/publication/pgm-pet/</loc>
+      <lastmod>2018-08-24T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/publication/comparison-moco-catalano/</loc>
+      <lastmod>2018-07-11T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/publication/icm-em/</loc>
+      <lastmod>2018-07-08T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/publication/fast-kinetic-modeling/</loc>
+      <lastmod>2018-06-20T00:00:00+00:00</lastmod>
+    </url>
+    
+  
+    
+    
+    <url>
+    
       <loc>https://mscipio.github.io/post/matlab_toolbox_nbin_mu/</loc>
       <lastmod>2017-11-16T10:00:00+00:00</lastmod>
     </url>
@@ -267,7 +321,7 @@
     <url>
     
       <loc>https://mscipio.github.io/publication_types/1/</loc>
-      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-11-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -277,7 +331,17 @@
     <url>
     
       <loc>https://mscipio.github.io/publication_types/2/</loc>
-      <lastmod>2016-08-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-09-01T00:00:00+00:00</lastmod>
+      <priority>0</priority>
+    </url>
+    
+  
+    
+    
+    <url>
+    
+      <loc>https://mscipio.github.io/publication_types/3/</loc>
+      <lastmod>2018-08-24T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
@@ -596,7 +660,7 @@
     <url>
     
       <loc>https://mscipio.github.io/publication_types/</loc>
-      <lastmod>2017-03-01T00:00:00+00:00</lastmod>
+      <lastmod>2018-11-15T00:00:00+00:00</lastmod>
       <priority>0</priority>
     </url>
     
