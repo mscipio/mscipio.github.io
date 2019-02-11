@@ -16,9 +16,7 @@
       <pubDate>Mon, 11 Feb 2019 16:00:00 +0100</pubDate>
       
       <guid>https://mscipio.github.io/post/utterances-comment-engine/</guid>
-      <description>
-
-&lt;p&gt;&lt;a href=&#34;https://utteranc.es/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Utteranc.es&lt;/strong&gt;&lt;/a&gt; is a lightweigth comments widget, which allows you to use &lt;strong&gt;Github Issues&lt;/strong&gt; for blog comments. It&amp;rsquo;s open source, looks clean, comments are stored on Github, and even comes with a dark theme. Sure, you need to sign with Github, but that&amp;rsquo;s fine since most coders already have an account.&lt;/p&gt;
+      <description>&lt;p&gt;&lt;a href=&#34;https://utteranc.es/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Utteranc.es&lt;/strong&gt;&lt;/a&gt; is a lightweigth comments widget, which allows you to use &lt;strong&gt;Github Issues&lt;/strong&gt; for blog comments. It&amp;rsquo;s open source, looks clean, comments are stored on Github, and even comes with a dark theme. Sure, you need to sign with Github, but that&amp;rsquo;s fine since most coders already have an account.&lt;/p&gt;
 
 &lt;h2 id=&#34;installation-steps&#34;&gt;Installation steps&lt;/h2&gt;
 
@@ -64,8 +62,7 @@ async&amp;gt;
 &lt;li&gt;&lt;p&gt;Save and deploy, as you normally would.&lt;/p&gt;&lt;/li&gt;
 
 &lt;li&gt;&lt;p&gt;Voila! Check it out below! 👇&lt;/p&gt;&lt;/li&gt;
-&lt;/ol&gt;
-</description>
+&lt;/ol&gt;</description>
     </item>
     
     <item>
