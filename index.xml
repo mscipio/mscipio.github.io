@@ -11,6 +11,64 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Add comments to your Hugo-Academic blog in 10 minutes, using Utteranc.es</title>
+      <link>https://mscipio.github.io/post/utterances-comment-engine/</link>
+      <pubDate>Mon, 11 Feb 2019 16:00:00 +0100</pubDate>
+      
+      <guid>https://mscipio.github.io/post/utterances-comment-engine/</guid>
+      <description>
+
+&lt;p&gt;&lt;a href=&#34;https://utteranc.es/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;Utteranc.es&lt;/strong&gt;&lt;/a&gt; is a lightweigth comments widget, which allows you to use &lt;strong&gt;Github Issues&lt;/strong&gt; for blog comments. It&amp;rsquo;s open source, looks clean, comments are stored on Github, and even comes with a dark theme. Sure, you need to sign with Github, but that&amp;rsquo;s fine since most coders already have an account.&lt;/p&gt;
+
+&lt;h2 id=&#34;installation-steps&#34;&gt;Installation steps&lt;/h2&gt;
+
+&lt;ol&gt;
+&lt;li&gt;You will, obviously, need to have your website hosted on &lt;a href=&#34;https://github.com/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;GitHub&lt;/strong&gt;&lt;/a&gt;, in a &lt;strong&gt;&lt;em&gt;public&lt;/em&gt;&lt;/strong&gt; repository, in order to &lt;em&gt;utterances&lt;/em&gt; to work as intended.&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Install &lt;a href=&#34;https://github.com/apps/utterances&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;utterances app&lt;/strong&gt;&lt;/a&gt; on that repo. You have a choice to install the app on every (current and future) repo, but I don&amp;rsquo;t think you will have any need for this. Usually you will have a (public) repo with a name like &lt;strong&gt;&lt;em&gt;&amp;lt;username&amp;gt;.github.io&lt;/em&gt;&lt;/strong&gt;: select this from the drop-down menu that will appear:
+&lt;p&gt;&lt;img src=&#34;../../img/posts/utterances/app-setup.png&#34; alt=&#34;python-vs-matlab&#34; width=&#34;500&#34; vspace=&#34;150&#34;/&gt;&lt;/p&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Go to &lt;a href=&#34;https://utteranc.es/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;utterances web-app&lt;/strong&gt;&lt;/a&gt; and fill the form as requested. It will generate (at the bottom of the page) a custom &lt;code&gt;html&lt;/code&gt; that you could &lt;em&gt;copy&amp;amp;paste&lt;/em&gt; in your blog template. you will require just a couple of information:&lt;/p&gt;
+
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;name of the repository&lt;/strong&gt; : usually, it will be something like &lt;strong&gt;&lt;em&gt;&lt;username\&gt;/&amp;lt;username&amp;gt;.github.io&lt;/em&gt;&lt;/strong&gt; (or more generally &lt;strong&gt;&lt;em&gt;owner/repo&lt;/em&gt;&lt;/strong&gt;)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;label&lt;/strong&gt;: as the comments will be managed via &lt;em&gt;GitHub&lt;/em&gt; Issue system, you will need to set-up a proper label to indentify those issues created by utterances (in case you have other &lt;em&gt;normal&lt;/em&gt; issues as well in you repo)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;theme&lt;/strong&gt;: your choice of a light or dark theme, according to the overall style of your current blog template&lt;/li&gt;
+&lt;/ul&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Copy to your clipboard.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;[The following will apply only to &lt;strong&gt;Hugo&lt;/strong&gt; Academic template, but it you are a little bit tech-savy you will find a way to make it work with whatever template you are using, even a custom one] Go to the folder in which the Hugo surce of your blog is hosted, and navigate to &lt;strong&gt;&lt;em&gt;themes/academic/layouts/partials&lt;/em&gt;&lt;/strong&gt;&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Open the source file &lt;strong&gt;&lt;em&gt;comments.html&lt;/em&gt;&lt;/strong&gt; and replace everything in it with &lt;em&gt;utterances&lt;/em&gt; script code:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;script src=&amp;quot;https://utteranc.es/client.js&amp;quot;
+repo=&amp;quot;mscipio/mscipio.github.io&amp;quot;
+issue-term=&amp;quot;pathname&amp;quot;
+label=&amp;quot;Comment&amp;quot;
+theme=&amp;quot;github-light&amp;quot;
+crossorigin=&amp;quot;anonymous&amp;quot;
+async&amp;gt;
+&amp;lt;/script&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;That&amp;rsquo;s it! Now, check that everything is set-up correctly in the post template file, which can be found at &lt;strong&gt;&lt;em&gt;themes/academic/layouts/_defaults/single.html&lt;/em&gt;&lt;/strong&gt;. Towards the end you should find something similar to this:&lt;/p&gt;
+
+&lt;pre&gt;&lt;code class=&#34;language-html&#34;&gt;&amp;lt;div class=&amp;quot;article-container&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+{{ partial &amp;quot;comments.html&amp;quot; . }}
+&amp;lt;/div&amp;gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Just in case you wanted to activate comments also for the &lt;strong&gt;&lt;em&gt;Publications&lt;/em&gt;&lt;/strong&gt; section provided by the Academic template, just copy the code snippet above and past it in &lt;strong&gt;&lt;em&gt;themes/academic/layouts/publications/single.html&lt;/em&gt;&lt;/strong&gt;, towards the end, just before the &lt;code&gt;&amp;lt;div class=&amp;quot;container&amp;quot;&amp;gt;&lt;/code&gt; tag.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Save and deploy, as you normally would.&lt;/p&gt;&lt;/li&gt;
+
+&lt;li&gt;&lt;p&gt;Voila! Check it out below! 👇&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Calling Matlab (custom) functions from Python</title>
       <link>https://mscipio.github.io/post/matlab-from-python/</link>
       <pubDate>Tue, 05 Feb 2019 10:26:46 +0100</pubDate>
@@ -601,34 +659,6 @@ Keep checking the website for future updates.&lt;/p&gt;
 &lt;p&gt;A Python package implementing the interface to the &lt;strong&gt;&lt;em&gt;Siemens Biograph mMR PET-MRI scanner&lt;/em&gt;&lt;/strong&gt; (including access to raw listmode data, sinograms, scatter data, physiological data) is available upon request (occiput.reconstruction@gmail.com). &lt;u&gt;Authorization from Siemens will be required&lt;/u&gt;.&lt;/p&gt;
 
 &lt;p&gt;To get started with Occiput, go to the &lt;a href=&#34;https://github.com/TomographyLab/Occiput&#34; target=&#34;_blank&#34;&gt;project source code&lt;/a&gt;  and follow the installation instructions. The source code contains Jupyter notebooks with documentation and examples.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Kinetic compressive sensing: improving image reconstruction and parametric maps</title>
-      <link>https://mscipio.github.io/talk/martinosopenhouse17/</link>
-      <pubDate>Thu, 25 May 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mscipio.github.io/talk/martinosopenhouse17/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../data/conferences/MartinosOpenHouse2017/image_poster.png&#34; alt=&#34;Kinetic compressive sensing: improving image reconstruction and parametric maps - Athinoula A. Martinos Center Scientific Open House 2017 - poster&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Parametric images provide insight into the spatial distribution of physiological parameters, but they are often extremely noisy, due to low SNR of tomographic data. Direct estimation from projections allows accurate noise modeling, improving the results of post-reconstruction fitting. We propose a method, which we name kinetic compressive sensing (KCS), based on a hierarchical Bayesian model and on a novel reconstruction algorithm, that encodes sparsity of kinetic parameters.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The model has three key components: the model of the acquisition system; the kinetic model; and a Markov Random Field with an L1-norm cost function, defined in kinetic parameters domain. Parametric maps are reconstructed by maximizing the joint probability, with an Iterated Conditional Modes approach, alternating the optimization of activity time series (OSL-MAP-EM), and kinetic parameters (MAP-LM): a parallel GPU implementation allows synchronized update of all the voxels, computing the gradient of the log joint posterior at each iteration.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Experiments&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;100 noise realizations of a simulated dynamic geometric phantom were generated using a 2TC irreversible model. A bias/variance study confirmed how direct estimates can improve the quality of parametric maps over a post-reconstruction fitting, and showed how the novel sparsity prior can further reduce their variance, without affecting bias. Real FDG PET human brain data (Siemens mMR, 40min) images were also processed. Results enforced how the proposed KCS-regularized direct method can produce spatially coherent images and parametric maps, with lower spatial and better tissue contrast.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Combining sparse kinetic compressive sensing into a direct reconstruction framework can help generating high-quality images and parametric maps, both amenable for display and quantitatively more accurate than what a post-reconstruction fitting can achieve. A GPU-based open source implementation of the algorithm is provided.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Keyword-&lt;/strong&gt; parametric images,PET,compartmental models,compressive sensing,hierarchical Bayesian model,sparsity,Markov Random Field,FDG,GPU&lt;/p&gt;
 </description>
     </item>
     

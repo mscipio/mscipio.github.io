@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Add comments to your Hugo-Academic blog in 10 minutes, using Utteranc.es</title>
+      <link>https://mscipio.github.io/post/utterances-comment-engine/</link>
+      <pubDate>Mon, 11 Feb 2019 16:00:00 +0100</pubDate>
+      
+      <guid>https://mscipio.github.io/post/utterances-comment-engine/</guid>
+      <description>Utteranc.es is a lightweigth comments widget, which allows you to use Github Issues for blog comments. It&amp;rsquo;s open source, looks clean, comments are stored on Github, and even comes with a dark theme. Sure, you need to sign with Github, but that&amp;rsquo;s fine since most coders already have an account.
+Installation steps  You will, obviously, need to have your website hosted on GitHub, in a public repository, in order to utterances to work as intended.</description>
+    </item>
+    
+    <item>
       <title>Calling Matlab (custom) functions from Python</title>
       <link>https://mscipio.github.io/post/matlab-from-python/</link>
       <pubDate>Tue, 05 Feb 2019 10:26:46 +0100</pubDate>

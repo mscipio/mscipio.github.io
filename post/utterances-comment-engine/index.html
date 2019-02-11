@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="theme" content="hugo-academic">
+  <meta name="generator" content="Hugo 0.54.0" />
+  <meta name="author" content="Michele Scipioni">
+  <meta name="description" content="Ph.D. student in Biomedical Engineering">
+
+  
+  
+  
+    
+  
+  
+    
+    
+    <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/styles/github.min.css">
+    
+  
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha512-6MXa8B6uaO18Hid6blRMetEIoPqHf7Ux1tnyIQdpt9qI5OACx7C+O3IVTr98vwGnlcg0LOLa02i9Y1HpVhlfiw==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.0/css/academicons.min.css" integrity="sha512-GGGNUPDhnG8LEAEDsjqYIQns+Gu8RBs4j5XGlxl7UfRaZBhCCm5jenJkeJL8uPuOXGqgl8/H1gjlWQDRjd3cUQ==" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha512-SfTiTlX6kk+qitfevl/7LibUOeJWlt9rbyDn92a1DqWOw9vWG2MFoays0sgObmWazO5BQPiFucnnEAjpAB+/Sw==" crossorigin="anonymous">
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Lato:400,700%7CMerriweather%7CRoboto+Mono">
+  <link rel="stylesheet" href="/css/hugo-academic.css">
+  
+
+  
+
+  <link rel="alternate" href="https://mscipio.github.io/index.xml" type="application/rss+xml" title="Michele Scipioni">
+  <link rel="feed" href="https://mscipio.github.io/index.xml" type="application/rss+xml" title="Michele Scipioni">
+
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
+
+  <link rel="canonical" href="https://mscipio.github.io/post/utterances-comment-engine/">
+
+  <link rel="stylesheet" href="https://mscipio.github.io/css/override.css">
+
+
+  <title>Add comments to your Hugo-Academic blog in 10 minutes, using Utteranc.es | Michele Scipioni</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+              data-target=".navbar-collapse" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="/">Michele Scipioni</a>
+    </div>
+
+    
+    <div class="collapse navbar-collapse">
+
+      
+      <ul class="nav navbar-nav navbar-right">
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#about">
+            
+            <span>Home</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#posts">
+            
+            <span>Posts</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#publications">
+            
+            <span>Publications</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#projects">
+            
+            <span>Projects</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#teaching">
+            
+            <span>Teaching</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        <li class="nav-item">
+          <a href="/#contact">
+            
+            <span>Contact</span>
+          </a>
+        </li>
+
+        
+        
+
+        
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+  <div class="article-container">
+    <h1 itemprop="name">Add comments to your Hugo-Academic blog in 10 minutes, using Utteranc.es</h1>
+    
+
+<div class="article-metadata">
+
+  <span class="article-date">
+    <time datetime="2019-02-11 16:00:00 &#43;0100 CET" itemprop="datePublished">
+      Mon, Feb 11, 2019
+    </time>
+  </span>
+
+  
+
+  
+  
+  
+  <span class="article-tags">
+    <i class="fa fa-tags"></i>
+    
+    <a href="/tags/github">github</a
+    >, 
+    
+    <a href="/tags/utteranc.es">utteranc.es</a
+    >, 
+    
+    <a href="/tags/blog">blog</a
+    >
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmscipio.github.io%2fpost%2futterances-comment-engine%2f"
+         target="_blank">
+        <i class="fa fa-facebook"></i>
+      </a>
+    </li>
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=Add%20comments%20to%20your%20Hugo-Academic%20blog%20in%2010%20minutes%2c%20using%20Utteranc.es&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2futterances-comment-engine%2f"
+         target="_blank">
+        <i class="fa fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmscipio.github.io%2fpost%2futterances-comment-engine%2f&amp;title=Add%20comments%20to%20your%20Hugo-Academic%20blog%20in%2010%20minutes%2c%20using%20Utteranc.es"
+         target="_blank">
+        <i class="fa fa-linkedin"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmscipio.github.io%2fpost%2futterances-comment-engine%2f&amp;title=Add%20comments%20to%20your%20Hugo-Academic%20blog%20in%2010%20minutes%2c%20using%20Utteranc.es"
+         target="_blank">
+        <i class="fa fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=Add%20comments%20to%20your%20Hugo-Academic%20blog%20in%2010%20minutes%2c%20using%20Utteranc.es&amp;body=https%3a%2f%2fmscipio.github.io%2fpost%2futterances-comment-engine%2f">
+        <i class="fa fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+<p><a href="https://utteranc.es/" target="_blank"><strong>Utteranc.es</strong></a> is a lightweigth comments widget, which allows you to use <strong>Github Issues</strong> for blog comments. It&rsquo;s open source, looks clean, comments are stored on Github, and even comes with a dark theme. Sure, you need to sign with Github, but that&rsquo;s fine since most coders already have an account.</p>
+
+<h2 id="installation-steps">Installation steps</h2>
+
+<ol>
+<li>You will, obviously, need to have your website hosted on <a href="https://github.com/" target="_blank"><strong>GitHub</strong></a>, in a <strong><em>public</em></strong> repository, in order to <em>utterances</em> to work as intended.</li>
+
+<li><p>Install <a href="https://github.com/apps/utterances" target="_blank"><strong>utterances app</strong></a> on that repo. You have a choice to install the app on every (current and future) repo, but I don&rsquo;t think you will have any need for this. Usually you will have a (public) repo with a name like <strong><em>&lt;username&gt;.github.io</em></strong>: select this from the drop-down menu that will appear:
+<p><img src="../../img/posts/utterances/app-setup.png" alt="python-vs-matlab" width="500" vspace="150"/></p></p></li>
+
+<li><p>Go to <a href="https://utteranc.es/" target="_blank"><strong>utterances web-app</strong></a> and fill the form as requested. It will generate (at the bottom of the page) a custom <code>html</code> that you could <em>copy&amp;paste</em> in your blog template. you will require just a couple of information:</p>
+
+<ul>
+<li><strong>name of the repository</strong> : usually, it will be something like <strong><em><username\>/&lt;username&gt;.github.io</em></strong> (or more generally <strong><em>owner/repo</em></strong>)</li>
+<li><strong>label</strong>: as the comments will be managed via <em>GitHub</em> Issue system, you will need to set-up a proper label to indentify those issues created by utterances (in case you have other <em>normal</em> issues as well in you repo)</li>
+<li><strong>theme</strong>: your choice of a light or dark theme, according to the overall style of your current blog template</li>
+</ul></li>
+
+<li><p>Copy to your clipboard.</p></li>
+
+<li><p>[The following will apply only to <strong>Hugo</strong> Academic template, but it you are a little bit tech-savy you will find a way to make it work with whatever template you are using, even a custom one] Go to the folder in which the Hugo surce of your blog is hosted, and navigate to <strong><em>themes/academic/layouts/partials</em></strong></p></li>
+
+<li><p>Open the source file <strong><em>comments.html</em></strong> and replace everything in it with <em>utterances</em> script code:</p>
+
+<pre><code class="language-html">&lt;script src=&quot;https://utteranc.es/client.js&quot;
+repo=&quot;mscipio/mscipio.github.io&quot;
+issue-term=&quot;pathname&quot;
+label=&quot;Comment&quot;
+theme=&quot;github-light&quot;
+crossorigin=&quot;anonymous&quot;
+async&gt;
+&lt;/script&gt;
+</code></pre></li>
+
+<li><p>That&rsquo;s it! Now, check that everything is set-up correctly in the post template file, which can be found at <strong><em>themes/academic/layouts/_defaults/single.html</em></strong>. Towards the end you should find something similar to this:</p>
+
+<pre><code class="language-html">&lt;div class=&quot;article-container&quot;&gt;&lt;/div&gt;
+{{ partial &quot;comments.html&quot; . }}
+&lt;/div&gt;
+</code></pre></li>
+
+<li><p>Just in case you wanted to activate comments also for the <strong><em>Publications</em></strong> section provided by the Academic template, just copy the code snippet above and past it in <strong><em>themes/academic/layouts/publications/single.html</em></strong>, towards the end, just before the <code>&lt;div class=&quot;container&quot;&gt;</code> tag.</p></li>
+
+<li><p>Save and deploy, as you normally would.</p></li>
+
+<li><p>Voila! Check it out below! 👇</p></li>
+</ol>
+
+    </div>
+  </div>
+
+</article>
+
+<div class="article-container"></div>
+
+<script src="https://utteranc.es/client.js"
+  repo="mscipio/mscipio.github.io"
+  issue-term="pathname"
+  label="Comment"
+  theme="github-light"
+  crossorigin="anonymous"
+  async>
+</script>
+
+</div>
+
+<div class="container">
+    <nav>
+  <ul class="pager">
+    
+    <li class="previous"><a href="https://mscipio.github.io/post/matlab-from-python/"><span
+      aria-hidden="true">&larr;</span> Calling Matlab (custom) functions from Python</a></li>
+    
+
+    
+  </ul>
+</nav>
+
+</div>
+
+<footer class="site-footer">
+  <div class="container">
+    <p class="powered-by">
+
+      &copy; 2017 Michele Scipioni &middot; 
+
+      Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
+      theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
+
+      <span class="pull-right" aria-hidden="true">
+        <a href="#" id="back_to_top">
+          <span class="button_icon">
+            <i class="fa fa-chevron-up fa-2x"></i>
+          </span>
+        </a>
+      </span>
+
+    </p>
+  </div>
+</footer>
+
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.12.4/jquery.min.js" integrity="sha512-jGsMH83oKe9asCpkOVkBnUrDDTp8wl+adkB2D+//JtlxO4SrLoJdhbOysIFQJloQFD+C4Fl1rMsQZF76JjV0eQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.2/imagesloaded.pkgd.min.js" integrity="sha512-iHzEu7GbSc705hE2skyH6/AlTpOfBmkx7nUqTLGzPYR+C1tRaItbRlJ7hT/D3YQ9SV0fqLKzp4XY9wKulTBGTw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/TweenMax.min.js" integrity="sha512-Z5heTz36xTemt1TbtbfXtTq5lMfYnOkXM2/eWcTTiLU01+Sw4ku1i7vScDc8fWhrP2abz9GQzgKH5NGBLoYlAw==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.19.1/plugins/ScrollToPlugin.min.js" integrity="sha512-CDeU7pRtkPX6XJtF/gcFWlEwyaX7mcAp5sO3VIu/ylsdR74wEw4wmBpD5yYTrmMAiAboi9thyBUr1vXRPA7t0Q==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha512-iztkobsvnjKfAtTNdHkGVjAYTrrtlC7mGp/54c40wowO7LhURYl3gVzzcEqGl/qKXQltJ2HwMrdLcNUdo+N/RQ==" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+    
+    <script src="/js/hugo-academic.js"></script>
+    
+
+    
+    
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/highlight.min.js"></script>
+
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/python.min.js"></script>
+      
+      <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.9.0/languages/matlab.min.js"></script>
+      
+
+      
+
+      <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({ tex2jax: { inlineMath: [['$','$'], ['\\(','\\)']] } });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS_CHTML" integrity="sha512-tOav5w1OjvsSJzePRtt2uQPFwBoHt1VZcUq8l8nm5284LEKE9FSJBQryzMBzHxY5P0zRdNqEcpLIRVYFNgu1jw==" crossorigin="anonymous"></script>
+    
+    
+
+  </body>
+</html>
+
