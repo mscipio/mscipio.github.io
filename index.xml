@@ -11,6 +11,38 @@
     <atom:link href="/" rel="self" type="application/rss+xml" />
     
     <item>
+      <title>Direct 4D PET reconstruction with discrete tissue types</title>
+      <link>https://mscipio.github.io/publication/embc19_directclustering/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/embc19_directclustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Direct 4D PET reconstruction with discrete tissue types</title>
+      <link>https://mscipio.github.io/talk/embc2019/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/talk/embc2019/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;../../data/conferences/EMBC2019/poster.png&#34; alt=&#34;Kinetic Compressive Sensing - EIEEE Nuclear Science Symposium and Medical Imaging Conference - 2017 - poster&#34; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Abstract&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Dynamic positron emission tomography (dPET) is known for its ability to extract spatiotemporal information of a radio tracer in living tissue. In this paper, a novel direct reconstruction framework is presented, which include concurrent clustering as a potential aid in addressing high levels of noise typical of voxel-wise kinetic modeling. Core assumption is that the imaged volume is formed by a finite number of different functional regions, and that voxel-wise time courses are determined by the functional cluster they belong to. Probabilistic Graphical Modeling (PGM) theory is used to describe the problem, and to derive the inference strategy. The proposed iterative estimation scheme provides concurrent estimate of kinetic parameter maps, activity images, and segmented clusters. Simulation studies and exploratory application to real data are performed to validate the proposal.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Graphical Models for dynamic PET: a novel approach to direct parametric map estimation and image reconstruction</title>
+      <link>https://mscipio.github.io/publication/pgm-pet/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/pgm-pet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Add comments to your Hugo-Academic blog in 10 minutes, using Utteranc.es</title>
       <link>https://mscipio.github.io/post/utterances-comment-engine/</link>
       <pubDate>Mon, 11 Feb 2019 16:00:00 +0100</pubDate>
@@ -416,11 +448,11 @@ print(type(ret))
     </item>
     
     <item>
-      <title>Probabilistic Graphical Modeling approach to dynamic PET direct parametric map estimation and image reconstruction</title>
-      <link>https://mscipio.github.io/publication/pgm-pet/</link>
+      <title>(preprint) Probabilistic Graphical Modeling approach to dynamic PET direct parametric map estimation and image reconstruction</title>
+      <link>https://mscipio.github.io/publication/pgm-pet_preprint/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mscipio.github.io/publication/pgm-pet/</guid>
+      <guid>https://mscipio.github.io/publication/pgm-pet_preprint/</guid>
       <description></description>
     </item>
     
@@ -595,67 +627,6 @@ print(type(ret))
 &lt;li&gt;&lt;a href=&#34;https://github.com/mscipio/Lectures/tree/master/2016/University%20of%20Pisa/Biomedical%20Imaging%20Course/Iterative%20Reconstruction%20in%20Emission%20Tomography&#34; target=&#34;_blank&#34;&gt;&lt;em&gt;Introduction to kinetic modeling for emission tomography: focus on compartmental models (meaning, use, and interpratation)&lt;/em&gt;&lt;/a&gt; &lt;a href=&#34;https://github.com/mscipio/Lectures/blob/master/2016/University%20of%20Pisa/Biomedical%20Imaging%20Course/Tracer%20Kinetic%20Modeling%20in%20PET%20dynamic%20imaging/Kinetic_Modeling_01_12_2016.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;[Part1]&lt;/strong&gt;&lt;/a&gt; &lt;a href=&#34;https://github.com/mscipio/Lectures/blob/master/2016/University%20of%20Pisa/Biomedical%20Imaging%20Course/Tracer%20Kinetic%20Modeling%20in%20PET%20dynamic%20imaging/Kinetic_Modeling_02_12_2016.pdf&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;[Part2]&lt;/strong&gt;&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;&lt;/li&gt;
 &lt;/ul&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Kinetic Compressive Sensing</title>
-      <link>https://mscipio.github.io/talk/ieee-nss-mic-2017/</link>
-      <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mscipio.github.io/talk/ieee-nss-mic-2017/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;../../data/conferences/IEEE-NSS-MIC-2017/poster.png&#34; alt=&#34;Kinetic Compressive Sensing - EIEEE Nuclear Science Symposium and Medical Imaging Conference - 2017 - poster&#34; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Introduction&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Parametric images provide insight into the spatial distribution of physiological parameters, but they are often extremely noisy, due to low SNR of tomographic data. Direct estimation from projections allows accurate noise modeling, improving the results of post-reconstruction fitting. We propose a method, which we name kinetic compressive sensing (KCS), based on a hierarchical Bayesian model and on a novel reconstruction algorithm, that encodes sparsity of kinetic parameters.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Methods&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;The model has three key components: the model of the acquisition system; the kinetic model; and a Markov Random Field with an L1-norm cost function, defined in kinetic parameters domain. Parametric maps are reconstructed by maximizing the joint probability, with an Iterated Conditional Modes approach, alternating the optimization of activity time series (OSL-MAP-EM), and kinetic parameters (MAP-LM): a parallel GPU implementation allows synchronized update of all the voxels, computing the gradient of the log joint posterior at each iteration.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Experiments&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;100 noise realizations of a simulated dynamic geometric phantom were generated using a 2TC irreversible model. A bias/variance study confirmed how direct estimates can improve the quality of parametric maps over a post-reconstruction fitting, and showed how the novel sparsity prior can further reduce their variance, without affecting bias. Real FDG PET human brain data (Siemens mMR, 40min) images were also processed. Results enforced how the proposed KCS-regularized direct method can produce spatially coherent images and parametric maps, with lower spatial and better tissue contrast.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Conclusion&lt;/strong&gt;&lt;/p&gt;
-
-&lt;p&gt;Combining sparse kinetic compressive sensing into a direct reconstruction framework can help generating high-quality images and parametric maps, both amenable for display and quantitatively more accurate than what a post-reconstruction fitting can achieve. A GPU-based open source implementation of the algorithm is provided.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>CUDA-GPU kinetic modeling</title>
-      <link>https://mscipio.github.io/project/gpu-lmfit/</link>
-      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mscipio.github.io/project/gpu-lmfit/</guid>
-      <description>&lt;p&gt;The source code and detailed instruction about how to install and use this toolbox will be provided soon.
-Keep checking the website for future updates.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Occiput.io</title>
-      <link>https://mscipio.github.io/project/occiput/</link>
-      <pubDate>Mon, 26 Jun 2017 00:00:00 +0000</pubDate>
-      
-      <guid>https://mscipio.github.io/project/occiput/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;http://tomographylab.scienceontheweb.net/&#34; target=&#34;_blank&#34;&gt;&lt;strong&gt;&lt;em&gt;OFFICIAL WEBSITE OF THE PROJECT&lt;/em&gt;&lt;/strong&gt;&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Occiput.io&lt;/strong&gt; is an open source software for Tomographic reconstruction based on GPU computing and on Python.&lt;/p&gt;
-
-&lt;p&gt;The design of &lt;em&gt;occiput.io&lt;/em&gt; makes it extremely easy to reconstruct tomographic images starting from the raw data produced by imaging systems: PET, PET-MRI and SPECT. Occiput.io is designed for GPU computing, it’s &lt;strong&gt;&lt;em&gt;blazing fast&lt;/em&gt;&lt;/strong&gt;!&lt;/p&gt;
-
-&lt;p&gt;To date, &lt;strong&gt;Occiput&lt;/strong&gt; and the &lt;strong&gt;NiftyRec&lt;/strong&gt; ray-tracer (on which Occiput is based), have been downloaded more than 12000 times.&lt;/p&gt;
-
-&lt;p&gt;The design of occiput.io enables 2D, 3D (volumetric) and 4D (spatio-temporal) dynamic tomographic imaging, joint reconstruction of multiple parameters (e.g. &lt;em&gt;MLAA&lt;/em&gt;), motion-aware imaging and more.&lt;/p&gt;
-
-&lt;p&gt;Occiput enables the interactive tomographic reconstruction in the cloud, using &lt;strong&gt;&lt;em&gt;Jupyter&lt;/em&gt;&lt;/strong&gt; and &lt;strong&gt;&lt;em&gt;IPython&lt;/em&gt;&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;A Python package implementing the interface to the &lt;strong&gt;&lt;em&gt;Siemens Biograph mMR PET-MRI scanner&lt;/em&gt;&lt;/strong&gt; (including access to raw listmode data, sinograms, scatter data, physiological data) is available upon request (occiput.reconstruction@gmail.com). &lt;u&gt;Authorization from Siemens will be required&lt;/u&gt;.&lt;/p&gt;
-
-&lt;p&gt;To get started with Occiput, go to the &lt;a href=&#34;https://github.com/TomographyLab/Occiput&#34; target=&#34;_blank&#34;&gt;project source code&lt;/a&gt;  and follow the installation instructions. The source code contains Jupyter notebooks with documentation and examples.&lt;/p&gt;
 </description>
     </item>
     

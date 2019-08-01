@@ -13,6 +13,24 @@
     
     
     <item>
+      <title>Direct 4D PET reconstruction with discrete tissue types</title>
+      <link>https://mscipio.github.io/publication/embc19_directclustering/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/embc19_directclustering/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Probabilistic Graphical Models for dynamic PET: a novel approach to direct parametric map estimation and image reconstruction</title>
+      <link>https://mscipio.github.io/publication/pgm-pet/</link>
+      <pubDate>Sun, 30 Jun 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/pgm-pet/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Kinetic Compressive Sensing</title>
       <link>https://mscipio.github.io/publication/kinetic-compressive-sensing/</link>
       <pubDate>Thu, 15 Nov 2018 00:00:00 +0000</pubDate>
@@ -31,11 +49,11 @@
     </item>
     
     <item>
-      <title>Probabilistic Graphical Modeling approach to dynamic PET direct parametric map estimation and image reconstruction</title>
-      <link>https://mscipio.github.io/publication/pgm-pet/</link>
+      <title>(preprint) Probabilistic Graphical Modeling approach to dynamic PET direct parametric map estimation and image reconstruction</title>
+      <link>https://mscipio.github.io/publication/pgm-pet_preprint/</link>
       <pubDate>Fri, 24 Aug 2018 00:00:00 +0000</pubDate>
       
-      <guid>https://mscipio.github.io/publication/pgm-pet/</guid>
+      <guid>https://mscipio.github.io/publication/pgm-pet_preprint/</guid>
       <description></description>
     </item>
     

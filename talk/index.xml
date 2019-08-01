@@ -13,6 +13,16 @@
     
     
     <item>
+      <title>Direct 4D PET reconstruction with discrete tissue types</title>
+      <link>https://mscipio.github.io/talk/embc2019/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/talk/embc2019/</guid>
+      <description>Abstract
+Dynamic positron emission tomography (dPET) is known for its ability to extract spatiotemporal information of a radio tracer in living tissue. In this paper, a novel direct reconstruction framework is presented, which include concurrent clustering as a potential aid in addressing high levels of noise typical of voxel-wise kinetic modeling. Core assumption is that the imaged volume is formed by a finite number of different functional regions, and that voxel-wise time courses are determined by the functional cluster they belong to.</description>
+    </item>
+    
+    <item>
       <title>Kinetic Compressive Sensing</title>
       <link>https://mscipio.github.io/talk/ieee-nss-mic-2017/</link>
       <pubDate>Thu, 26 Oct 2017 00:00:00 +0000</pubDate>

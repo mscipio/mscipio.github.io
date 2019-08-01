@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Michele Scipioni</copyright>
-    <lastBuildDate>Thu, 15 Nov 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jul 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mscipio.github.io/publication_types/1/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Direct 4D PET reconstruction with discrete tissue types</title>
+      <link>https://mscipio.github.io/publication/embc19_directclustering/</link>
+      <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/embc19_directclustering/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Kinetic Compressive Sensing</title>
