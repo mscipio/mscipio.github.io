@@ -13,6 +13,15 @@
     
     
     <item>
+      <title>Negative binomial maximum likelihood expectation maximization (NB-MLEM) algorithm for reconstruction of pre-corrected PET data</title>
+      <link>https://mscipio.github.io/publication/nb-mlem/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/nb-mlem/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Direct 4D PET reconstruction with discrete tissue types</title>
       <link>https://mscipio.github.io/publication/embc19_directclustering/</link>
       <pubDate>Fri, 26 Jul 2019 00:00:00 +0000</pubDate>

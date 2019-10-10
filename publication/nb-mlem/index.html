@@ -34,12 +34,12 @@
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://mscipio.github.io/publication/icm-em/">
+  <link rel="canonical" href="https://mscipio.github.io/publication/nb-mlem/">
 
   <link rel="stylesheet" href="https://mscipio.github.io/css/override.css">
 
 
-  <title>Direct parametric maps estimation from dynamic PET data: an iterated conditional modes approach | Michele Scipioni</title>
+  <title>Negative binomial maximum likelihood expectation maximization (NB-MLEM) algorithm for reconstruction of pre-corrected PET data | Michele Scipioni</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -161,7 +161,7 @@
 
   
 <div class="article-header">
-  <h1 itemprop="name">Direct parametric maps estimation from dynamic PET data: an iterated conditional modes approach</h1>
+  <h1 itemprop="name">Negative binomial maximum likelihood expectation maximization (NB-MLEM) algorithm for reconstruction of pre-corrected PET data</h1>
   
 </div>  
 
@@ -171,7 +171,7 @@
     
     <span class="pub-authors" itemprop="author">
       
-      Michele Scipioni, Assuero Giorgetti, Daniele Della Latta, Sabrina Fucci, Vincenzo Positano, Luigi Landini, Maria F Santarelli
+      Michele Scipioni, Maria Filomena Santarelli, Assuero Giorgetti, Vincenzo Positano, Luigi Landini
       
     </span>
     <span class="pull-right">
@@ -180,35 +180,35 @@
   <ul class="share">
     <li>
       <a class="facebook"
-         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmscipio.github.io%2fpublication%2ficm-em%2f"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fmscipio.github.io%2fpublication%2fnb-mlem%2f"
          target="_blank">
         <i class="fa fa-facebook"></i>
       </a>
     </li>
     <li>
       <a class="twitter"
-         href="https://twitter.com/intent/tweet?text=Direct%20parametric%20maps%20estimation%20from%20dynamic%20PET%20data%3a%20an%20iterated%20conditional%20modes%20approach&amp;url=https%3a%2f%2fmscipio.github.io%2fpublication%2ficm-em%2f"
+         href="https://twitter.com/intent/tweet?text=Negative%20binomial%20maximum%20likelihood%20expectation%20maximization%20%28NB-MLEM%29%20algorithm%20for%20reconstruction%20of%20pre-corrected%20PET%20data&amp;url=https%3a%2f%2fmscipio.github.io%2fpublication%2fnb-mlem%2f"
          target="_blank">
         <i class="fa fa-twitter"></i>
       </a>
     </li>
     <li>
       <a class="linkedin"
-         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmscipio.github.io%2fpublication%2ficm-em%2f&amp;title=Direct%20parametric%20maps%20estimation%20from%20dynamic%20PET%20data%3a%20an%20iterated%20conditional%20modes%20approach"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fmscipio.github.io%2fpublication%2fnb-mlem%2f&amp;title=Negative%20binomial%20maximum%20likelihood%20expectation%20maximization%20%28NB-MLEM%29%20algorithm%20for%20reconstruction%20of%20pre-corrected%20PET%20data"
          target="_blank">
         <i class="fa fa-linkedin"></i>
       </a>
     </li>
     <li>
       <a class="weibo"
-         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmscipio.github.io%2fpublication%2ficm-em%2f&amp;title=Direct%20parametric%20maps%20estimation%20from%20dynamic%20PET%20data%3a%20an%20iterated%20conditional%20modes%20approach"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fmscipio.github.io%2fpublication%2fnb-mlem%2f&amp;title=Negative%20binomial%20maximum%20likelihood%20expectation%20maximization%20%28NB-MLEM%29%20algorithm%20for%20reconstruction%20of%20pre-corrected%20PET%20data"
          target="_blank">
         <i class="fa fa-weibo"></i>
       </a>
     </li>
     <li>
       <a class="email"
-         href="mailto:?subject=Direct%20parametric%20maps%20estimation%20from%20dynamic%20PET%20data%3a%20an%20iterated%20conditional%20modes%20approach&amp;body=https%3a%2f%2fmscipio.github.io%2fpublication%2ficm-em%2f">
+         href="mailto:?subject=Negative%20binomial%20maximum%20likelihood%20expectation%20maximization%20%28NB-MLEM%29%20algorithm%20for%20reconstruction%20of%20pre-corrected%20PET%20data&amp;body=https%3a%2f%2fmscipio.github.io%2fpublication%2fnb-mlem%2f">
         <i class="fa fa-envelope"></i>
       </a>
     </li>
@@ -225,7 +225,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">We propose and test a novel approach for direct parametric image reconstruction of dynamic PET data. We present a theoretical description of the problem of PET direct parametric maps estimation as an inference problem, from a probabilistic point of view, and we derive a simple iterative algorithm, based on the Iterated Conditional Mode (ICM) framework, which exploits the simplicity of a two-step optimization and the efficiency of an analytic method for estimating kinetic parameters from a nonlinear compartmental model. The resulting method is general enough to be flexible to an arbitrary choice of the kinetic model, and unlike many other solutions, it is capable to deal with nonlinear compartmental models without the need for linearization. We tested its performance on a two-tissue compartment model, including an analytical solution to the kinetic parameters evaluation, based on an auxiliary parameter set, with the aim of reducing computation errors and approximations. The new method is tested on simulated and clinical data. Simulation analysis led to the conclusion that the proposed algorithm gives a good estimation of the kinetic parameters in any noise condition. Furthermore, the application of the proposed method to clinical data gave promising results for further studies.</p>
+  <p class="pub-abstract" itemprop="text">*Purpose* Positron emission tomography (PET) image reconstruction is usually performed using maximum likelihood (ML) iterative reconstruction methods, under the assumption of Poisson distributed data. Pre-correcting raw measured counts, this assumption is no longer realistic. The goal of this work is to develop a reconstruction algorithm based on the Negative Binomial (NB) distribution, which can generalize over the Poisson distribution in case of over-dispersion of raw data, that may occur if sinogram pre-correction is used. *Methods* The mathematical derivation of a Negative Binomial Maximum Likelihood Expectation-Maximization (NB-MLEM) algorithm is presented. A simulation study to compare the performance of the proposed NB-MLEM algorithm with respect to a Poisson-based MLEM (P-MLEM) method was performed, in reconstructing PET data. The proposed NB-MLEM reconstruction was tested on a real phantom and human brain data. *Results* For the property of NB distribution, it is a generalization of the conventional P-MLEM: for not over dispersed data, the proposed NB-MLEM algorithm behaves like the conventional P-MLEM; for over-dispersed PET data, the additional evaluation of the dispersion parameter after each reconstruction iteration leads to a more accurate final image with respect to P-MLEM. *Conclusions* A novel approach for PET image reconstruction from pre-corrected data has been developed, which exhibits a statistical behavior that deviates from the Poisson distribution. Simulation study and preliminary tests on real data showed how the NB-MLEM algorithm, being able to explain the over-dispersion of pre-corrected data, can outperform other algorithms that assume no over-dispersion of pre-corrected data, while still not accounting for the presence of negative data, such as P-MLEM.</p>
 
   
   <div class="row">
@@ -253,8 +253,8 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
         <div class="col-xs-12 col-sm-9">
-          <a href="https://www.hindawi.com/journals/jhe/2018/5942873/abs/" target="_blank">
-          Journal of Healthcare Engineering
+          <a href="https://www.sciencedirect.com/science/article/pii/S0010482519303506" target="_blank">
+          Computers in Biology and Medicine
           </a>
         </div>
       </div>
@@ -269,7 +269,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          July, 2018
+          October, 2019
         </div>
       </div>
     </div>
@@ -288,10 +288,6 @@
 
 
 
-
-<a class="btn btn-primary btn-outline" href="https://www.hindawi.com/journals/jhe/2018/5942873/abs/">
-  PDF
-</a>
 
 
 
@@ -331,13 +327,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://mscipio.github.io/publication/fast-kinetic-modeling/"><span
-      aria-hidden="true">&larr;</span> Accelerated PET kinetic maps estimation by analytic fitting method</a></li>
+    <li class="previous"><a href="https://mscipio.github.io/publication/embc19_directclustering/"><span
+      aria-hidden="true">&larr;</span> Direct 4D PET reconstruction with discrete tissue types</a></li>
     
 
-    
-    <li class="next"><a href="https://mscipio.github.io/publication/comparison-moco-catalano/">Comparison of the clinical performance of upper abdominal PET/DCE-MRI with and without concurrent respiratory motion correction (MoCo) <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>

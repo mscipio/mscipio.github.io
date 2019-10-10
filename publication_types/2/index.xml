@@ -7,10 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; 2017 Michele Scipioni</copyright>
-    <lastBuildDate>Sun, 30 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Oct 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="https://mscipio.github.io/publication_types/2/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Negative binomial maximum likelihood expectation maximization (NB-MLEM) algorithm for reconstruction of pre-corrected PET data</title>
+      <link>https://mscipio.github.io/publication/nb-mlem/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://mscipio.github.io/publication/nb-mlem/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>Probabilistic Graphical Models for dynamic PET: a novel approach to direct parametric map estimation and image reconstruction</title>
