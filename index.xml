@@ -5,12 +5,162 @@
     <link>/</link>
       <atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     <description>MICHELE SCIPIONI</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Fri, 13 Mar 2020 22:04:30 -0400</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Sat, 14 Mar 2020 18:39:24 -0500</lastBuildDate>
     <image>
       <url>/img/foto_bw.jpg</url>
       <title>MICHELE SCIPIONI</title>
       <link>/</link>
     </image>
+    
+    <item>
+      <title>Shortcode Tests</title>
+      <link>/post/shortcode-tests/</link>
+      <pubDate>Sat, 14 Mar 2020 18:39:24 -0500</pubDate>
+      <guid>/post/shortcode-tests/</guid>
+      <description>&lt;p&gt;Hello,
+Thanks for downloading and testing our my shortcode pack. Below will
+load all of the shortcodes and display the various options they have.
+If you like and enjoy these short codes, please post a link on your
+blog to 
+&lt;a href=&#34;http://geekthis.net&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;GeekThis.net&lt;/a&gt;, I would really appreciate it.&lt;/p&gt;
+&lt;h2 id=&#34;installing-new-shortcodes&#34;&gt;Installing New Shortcodes&lt;/h2&gt;
+&lt;p&gt;To install shortcodes, copy each HTML file relating to a shortcode you
+want and place it into the shortcode directory inside of Hugo. This
+location will vary depending on if you are adding shortcodes to a
+template or to your website. If you are adding shortcodes just to your
+website, I suggest adding them to the layout directory instead of to a
+theme.&lt;/p&gt;
+&lt;p&gt;To add a shortcode to your Hugo site, place the HTML file inside of
+&lt;code&gt;/layouts/shortcodes/&lt;/code&gt;. For templates add the shortcode file to
+&lt;code&gt;/themes/theme-name/layouts/shortcodes/&lt;/code&gt;.&lt;/p&gt;
+&lt;h2 id=&#34;twitch-shortcode&#34;&gt;Twitch Shortcode&lt;/h2&gt;
+&lt;p&gt;With Twitch shortcodes, you can specify a variable of either channel or
+video. If both are set for a single shortcode, only the video variable
+will be set and channel will be ignored.&lt;/p&gt;
+&lt;p&gt;To get a video ID from Twitch, visit a video page and the ID is the
+number at the end of the URL, along with the letter in the path name
+before it. With the example of &lt;code&gt;https://www.twitch.tv/example/v/123456789&lt;/code&gt;
+the video ID would be &lt;code&gt;v123456789&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;shortcode shortcode--twitch shortcode--video&#34; style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+	&lt;iframe
+		style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;
+		src=&#39;http://player.twitch.tv/?channel=example&amp;autoplay=false&#39;
+		frameborder=&#34;0&#34;
+		scrolling=&#34;no&#34;
+		allowfullscreen=&#34;true&#34;&gt;
+	&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;shortcode shortcode--twitch shortcode--video&#34; style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+	&lt;iframe
+		style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%;&#34;
+		src=&#39;http://player.twitch.tv/?video=v123456789&amp;autoplay=false&#39;
+		frameborder=&#34;0&#34;
+		scrolling=&#34;no&#34;
+		allowfullscreen=&#34;true&#34;&gt;
+	&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;jsfiddle-shortcode&#34;&gt;JSFiddle Shortcode&lt;/h2&gt;
+&lt;p&gt;JSFiddle shortcodes embed a read-only JSFiddle and displays the HTML,
+CSS, JavaScript along with the Result. You can customize the appearance
+to be either &lt;code&gt;light&lt;/code&gt; or &lt;code&gt;dark&lt;/code&gt;, adjust the height, and select what
+tabs to display.&lt;/p&gt;
+&lt;p&gt;To get the JSFiddle ID and Revision Number, visit a JSFiddle and the
+alphanumeric number as the first section in the path is the identifier.
+The revision number is the numeric number in the next part of the path.
+The revision number may not exist can be set to 0 or ignored. With
+the example url of &lt;code&gt;https://jsfiddle.net/347cw3h4/1/&lt;/code&gt; the ID is
+&lt;code&gt;347cw3h4&lt;/code&gt; and the revision number is &lt;code&gt;1&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;shortcode shortcode--jsfiddle shortcode--code&#34;&gt;
+	&lt;iframe
+		width=&#34;100%&#34;
+		height=&#39;200&#39;
+		src=&#39;//jsfiddle.net/347cw3h4/0/embedded/js,html,css,result/dark&#39;
+		allowfullscreen=&#34;allowfullscreen&#34;
+		frameborder=&#34;0&#34;&gt;
+	&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;pastebin-shortcode&#34;&gt;Pastebin Shortcode&lt;/h2&gt;
+&lt;p&gt;Pastebin is a great place to paste source code, logs, and other content
+that you want to share with others. If you want to share it with your
+website visitors, you can use the pastebin shortcode.&lt;/p&gt;
+&lt;p&gt;The pastebin shortcode has two options you can set, the pastebin id
+and the height of the paste to display. The heigt is optional, and if
+not set, the full height of the paste will be displayed.&lt;/p&gt;
+&lt;p&gt;To get the pastebin ID, go to the paste you want to publish, and in the
+url, the alphanumeric string directly after the pastebin domain is the
+pastebin id. Using the URL &lt;code&gt;http://pastebin.com/JwzQbTwh&lt;/code&gt; as an example,
+the pastebin ID would be &lt;code&gt;JwzQbTwh&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;shortcode shortcode--pastebin shortcode--code&#34; id=&#39;pastebin-JwzQbTwh&#39;&gt;
+	
+	&lt;style&gt;
+		#pastebin-JwzQbTwh .embedPastebin ol.text {
+			overflow: auto;
+			max-height: 500px;
+		}
+	&lt;/style&gt;
+	
+
+	&lt;script src=&#39;//pastebin.com/embed_js/JwzQbTwh&#39;&gt;&lt;/script&gt;
+&lt;/div&gt;
+
+
+&lt;h2 id=&#34;google-maps&#34;&gt;Google Maps&lt;/h2&gt;
+&lt;p&gt;Adding Google Maps can sometimes be useful to add inside of posts or
+onto pages of your website. Our shortcode provides the general Google
+Maps Place API to embed a Google Map with a search query. A search can
+include an address, city, street, or almost any other location.&lt;/p&gt;
+&lt;p&gt;With Google Maps, you need to first setup a Google Maps API Key. It&amp;rsquo;s
+free and easy to setup. Visit the 
+&lt;a href=&#34;https://console.developers.google.com/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Google Developer API
+Console&lt;/a&gt; and create a new application to get your API
+key. You can store this key inside your Hugo configuration file or each
+time you ues the shortcode, you can add the API Key to the parameter
+&lt;code&gt;key&lt;/code&gt;.&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4&#34;&gt;&lt;code class=&#34;language-ini&#34; data-lang=&#34;ini&#34;&gt;&lt;span style=&#34;color:#66d9ef&#34;&gt;[params]&lt;/span&gt;
+	&lt;span style=&#34;color:#a6e22e&#34;&gt;googleMapsAPIKey&lt;/span&gt; &lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt; &lt;span style=&#34;color:#e6db74&#34;&gt;&amp;#34;000000000000&amp;#34;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;The Google Maps shortcode accepts the parameters of &lt;code&gt;height&lt;/code&gt;, &lt;code&gt;key&lt;/code&gt;,
+and &lt;code&gt;location&lt;/code&gt;. The height defaults to 400px if it&amp;rsquo;s not set and the
+api key defaults to the site configuration API Key. The location is a
+search query for a location you want to display for the map.&lt;/p&gt;
+&lt;div class=&#34;shortcode shortcode--google-maps&#34;&gt;
+	&lt;iframe
+		src=&#39;https://www.google.com/maps/embed/v1/place?key=000&amp;q=Googleplex%2c%20Amphitheatre%20Parkway%2c%20Mountain%20View%2c%20CA&#39;
+		frameborder=&#34;0&#34;
+		scrolling=&#34;no&#34;
+		width=&#34;100%&#34;
+		height=&#39;300&#39;&gt;
+	&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&#34;box-documents&#34;&gt;Box Documents&lt;/h2&gt;
+&lt;p&gt;If you use Box to share files, adding embedded files to your website
+is easy. Box provides an embedded view for shared files that displays
+a preview of almost any file available, such as PDF, DOC, Spreadsheets
+and others.&lt;/p&gt;
+&lt;p&gt;The box shortcode accepts two parameters, the share ID of the file and
+the height you want the document to be displayed at. To get the ID of
+a file inside of Box, right click on a file inside of Box and click on
+&amp;ldquo;Share.&amp;rdquo; The publicly available URL will be similar to
+&lt;code&gt;https://app.box.com/s/000000000000&lt;/code&gt;, you will want to grab the unique
+string of characters ofter the &lt;code&gt;/s/&lt;/code&gt; path.&lt;/p&gt;
+&lt;div class=&#34;shortcode shortcode--box-preview&#34;&gt;
+	&lt;iframe
+		src=&#39;https://mscipio.github.io/data/teaching/2020_IntroMATLAB_why&amp;amp;how.pdf&#39;
+		frameborder=&#34;0&#34;
+		scrolling=&#34;no&#34;
+		width=&#34;100%&#34;
+		height=&#39;400&#39;&gt;
+	&lt;/iframe&gt;
+&lt;/div&gt;
+
+</description>
+    </item>
     
     <item>
       <title>Introduction to Matlab </title>
@@ -43,7 +193,16 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;preview-the-slides-here&#34;&gt;Preview the slides here&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Note: This is the complete, unabridged set of slides, with few additional slides left out from the actual presentation for time constraints&lt;/em&gt;&lt;/p&gt;
-&lt;embed src=&#34;http://mscipio.github.io/data/teaching/2020_IntroMATLAB_why&amp;how.pdf&#34; width=&#34;100%&#34; height=&#34;440&#34;&gt;
+&lt;div class=&#34;shortcode shortcode--box-preview&#34;&gt;
+	&lt;iframe
+		src=&#39;https://mscipio.github.io/data/teaching/2020_IntroMATLAB_why&amp;amp;how.pdf&#39;
+		frameborder=&#34;0&#34;
+		scrolling=&#34;no&#34;
+		width=&#34;100%&#34;
+		height=&#39;440&#39;&gt;
+	&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;hr&gt;
 &lt;h2 id=&#34;copyright&#34;&gt;Copyright&lt;/h2&gt;
 &lt;p&gt;Feel free to leave a comment, and share this page with people who may be interested.&lt;/p&gt;

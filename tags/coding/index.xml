@@ -43,7 +43,16 @@
 &lt;hr&gt;
 &lt;h2 id=&#34;preview-the-slides-here&#34;&gt;Preview the slides here&lt;/h2&gt;
 &lt;p&gt;&lt;em&gt;Note: This is the complete, unabridged set of slides, with few additional slides left out from the actual presentation for time constraints&lt;/em&gt;&lt;/p&gt;
-&lt;embed src=&#34;http://mscipio.github.io/data/teaching/2020_IntroMATLAB_why&amp;how.pdf&#34; width=&#34;100%&#34; height=&#34;440&#34;&gt;
+&lt;div class=&#34;shortcode shortcode--box-preview&#34;&gt;
+	&lt;iframe
+		src=&#39;https://mscipio.github.io/data/teaching/2020_IntroMATLAB_why&amp;amp;how.pdf&#39;
+		frameborder=&#34;0&#34;
+		scrolling=&#34;no&#34;
+		width=&#34;100%&#34;
+		height=&#39;440&#39;&gt;
+	&lt;/iframe&gt;
+&lt;/div&gt;
+
 &lt;hr&gt;
 &lt;h2 id=&#34;copyright&#34;&gt;Copyright&lt;/h2&gt;
 &lt;p&gt;Feel free to leave a comment, and share this page with people who may be interested.&lt;/p&gt;
