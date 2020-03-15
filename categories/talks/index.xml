@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>coding | MICHELE SCIPIONI</title>
-    <link>/tags/coding/</link>
-      <atom:link href="/tags/coding/index.xml" rel="self" type="application/rss+xml" />
-    <description>coding</description>
+    <title>talks | MICHELE SCIPIONI</title>
+    <link>/categories/talks/</link>
+      <atom:link href="/categories/talks/index.xml" rel="self" type="application/rss+xml" />
+    <description>talks</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Fri, 13 Mar 2020 22:04:30 -0400</lastBuildDate>
     <image>
       <url>/img/foto_bw.jpg</url>
-      <title>coding</title>
-      <link>/tags/coding/</link>
+      <title>talks</title>
+      <link>/categories/talks/</link>
     </image>
     
     <item>
