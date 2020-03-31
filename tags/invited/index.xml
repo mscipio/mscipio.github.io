@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>invited | MICHELE SCIPIONI</title>
+    <link>/tags/invited/</link>
+      <atom:link href="/tags/invited/index.xml" rel="self" type="application/rss+xml" />
+    <description>invited</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>©2020</copyright><lastBuildDate>Fri, 13 Mar 2020 22:04:30 -0400</lastBuildDate>
+    <image>
+      <url>/img/foto_bw.jpg</url>
+      <title>invited</title>
+      <link>/tags/invited/</link>
+    </image>
+    
+    <item>
+      <title>Introduction to Matlab </title>
+      <link>/talk/intro-to-matlab-whynhow/intro-to-matlab-whynhow/</link>
+      <pubDate>Fri, 13 Mar 2020 22:04:30 -0400</pubDate>
+      <guid>/talk/intro-to-matlab-whynhow/intro-to-matlab-whynhow/</guid>
+      <description>&lt;h2 id=&#34;why--how-seminar-series-recorded-12-march-2020&#34;&gt;Why &amp;amp; How Seminar Series, recorded 12 March 2020&lt;/h2&gt;
+&lt;p&gt;This invited talk was part of a series of seminars organized by the 
+&lt;a href=&#34;https://www.martinos.org/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Athinoula A. Martinos Center for Biomedical Imaging&lt;/a&gt;, and curated by 
+&lt;a href=&#34;mailto:VBARLETTA@mgh.harvard.edu&#34;&gt;&lt;em&gt;&lt;strong&gt;Valeria Barletta&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;, 
+&lt;a href=&#34;AJBERMAN@mgh.harvard.edu&#34;&gt;&lt;em&gt;&lt;strong&gt;Avery Berman&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;, 
+&lt;a href=&#34;AFRAUPASCUAL@mgh.harvard.edu&#34;&gt;&lt;em&gt;&lt;strong&gt;Aina Frau-Pascual&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;, and 
+&lt;a href=&#34;MJAS@mgh.harvard.edu&#34;&gt;&lt;em&gt;&lt;strong&gt;Mainak Jas&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Follow &lt;code&gt;@MGHMartinos&lt;/code&gt; on Facebook, Instagram and Twitter!&lt;/li&gt;
+&lt;li&gt;For a complete list of all the (past and future) events of this series, check their 
+&lt;a href=&#34;https://gate.nmr.mgh.harvard.edu/wiki/whynhow/index.php/Main_Page&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;wiki&lt;/a&gt; and join the 
+&lt;a href=&#34;https://mail.nmr.mgh.harvard.edu/mailman/listinfo/whynhow&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;mailing list&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;Also, a shoutout to the amazing 
+&lt;a href=&#34;laura.gee@mgh.harvard.edu&#34;&gt;&lt;em&gt;&lt;strong&gt;Laura Gee&lt;/strong&gt;&lt;/em&gt;&lt;/a&gt; (
+&lt;a href=&#34;https://lauracgee.com&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;lauracgee.com&lt;/a&gt;), who took care of setting up the (first) live webinar in Martinos Center&amp;rsquo;s history (I guess we have to &lt;em&gt;thank&lt;/em&gt; COVID-19 for this opportunity) and editing and uploading the video on Youtube!&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Note: This seminar also appeared live on Facebook at 
+&lt;a href=&#34;https://www.facebook.com/MGHMartinos/videos/235897604233406/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;this link&lt;/a&gt;&lt;/em&gt;&lt;/p&gt;
+
+&lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+  &lt;iframe src=&#34;https://www.youtube.com/embed/GUHabE0sE9Y&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; allowfullscreen title=&#34;YouTube Video&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;preview-the-slides-here&#34;&gt;Preview the slides here&lt;/h2&gt;
+&lt;p&gt;&lt;em&gt;Note: This is the complete, unabridged set of slides, with few additional slides left out from the actual presentation for time constraints&lt;/em&gt;&lt;/p&gt;
+&lt;div class=&#34;shortcode shortcode--box-preview&#34;&gt;
+	&lt;iframe
+		src=&#39;https://mscipio.github.io/data/teaching/2020_IntroMATLAB_why&amp;amp;how.pdf&#39;
+		frameborder=&#34;0&#34;
+		scrolling=&#34;no&#34;
+		width=&#34;100%&#34;
+		height=&#39;440&#39;&gt;
+	&lt;/iframe&gt;
+&lt;/div&gt;
+
+&lt;hr&gt;
+&lt;h2 id=&#34;copyright&#34;&gt;Copyright&lt;/h2&gt;
+&lt;p&gt;Feel free to leave a comment, and share this page with people who may be interested.&lt;/p&gt;
+&lt;p&gt;If you want to use this presentation to give your own &amp;ldquo;Intro to MATLAB&amp;rdquo; talk, your are welcome to do it, but &lt;em&gt;&lt;strong&gt;I would really appreciate being acknowledged&lt;/strong&gt;&lt;/em&gt; with a reference to this page, or my GitHub repo.&lt;/p&gt;
+&lt;p&gt;Thanks!&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
